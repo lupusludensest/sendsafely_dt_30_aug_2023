@@ -1,5 +1,5 @@
+from all_locators_tdd import *
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
@@ -10,22 +10,6 @@ def test_sendsafely_pytested_bttns_clckd_2():
 
     driver.get("https://www.sendsafely.com")
     wait = WebDriverWait(driver, 15)
-
-    # Locators
-    ACPT_CCKS_BTN = (By.ID, "cookie_accept")
-    FTRS_BTN = (By.XPATH, "(//a[@href='/features/'])[1]")  # (By.XPATH, "//a[normalize-space()='Features']")
-    SLTNS_BTN = (By.XPATH, "//a[@class='dropdown-toggle nav-link']")  # (By.XPATH, "//a[@title='Solutions']")
-    FV_ELMNTS_DRPDWN_MNU_HR = (By.XPATH, "//li[@class='nav-item']")
-    SCR_EML_TXT = (By.XPATH, "(//li[@class='nav-item'])[1]")
-    HLP_DSK_INTGRTN_TXT = (By.XPATH, "(//li[@class='nav-item'])[2]")
-    SCR_FL_EXCHNG_TXT = (By.XPATH, "(//li[@class='nav-item'])[3]")
-    SND_SFLY_DRP_ZN_TXT = (By.XPATH, "(//li[@class='nav-item'])[4]")
-    DVLPR_API_TXT = (By.XPATH, "(//li[@class='nav-item'])[5]")
-    PRCN_BTN = (By.XPATH, "//a[@href='/pricing/']")  # (By.XPATH, "//a[normalize-space()='Pricing']")
-    HW_T_WRKS_BTN = (By.XPATH, "//a[@href='/howitworks/']")  # (By.XPATH, "//a[@class='nobr nav-link']")
-    BLG_BTN = (By.XPATH, "//a[@href='https://blog.sendsafely.com']")  # (By.XPATH, "//a[normalize-space()='Blog']")
-    LGN_BTN = (By.XPATH, "//a[@href='/auth/']")
-    RQST_DM_BTN = (By.XPATH, "//nobr[normalize-space()='Request Demo']")
 
     # Click button "Accept" cookies
     driver.find_element(*ACPT_CCKS_BTN).click()
