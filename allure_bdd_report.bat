@@ -1,0 +1,1 @@
+allure serve allure_bdd_reports/

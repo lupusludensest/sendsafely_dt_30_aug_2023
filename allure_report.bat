@@ -1,1 +1,0 @@
-allure serve bdd_test_results/

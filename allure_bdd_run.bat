@@ -1,0 +1,1 @@
+behave -f allure_behave.formatter:AllureFormatter -o allure_bdd_reports/ features/
