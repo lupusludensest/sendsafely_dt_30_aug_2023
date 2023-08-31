@@ -2,6 +2,8 @@ from pages.base_page import Page
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+from time import sleep
 
 # Locators
 SND_SFL_PCTR = (By.XPATH, "//img[@src='/img/ss_logo_60_343.png']") # (By.XPATH, "//img[@alt='logo']")
@@ -17,6 +19,12 @@ LGN_BTN = (By.XPATH, "//a[@href='/auth/']")
 RQST_DM_BTN = (By.XPATH, "//nobr[normalize-space()='Request Demo']")
 SGN_P_BTN = (By.XPATH, "//section[@class='agency_banner_area_two']//a[1]")
 LRN_MR_BTN = (By.XPATH, "//a[@id='intro-button']//div[@class='btn btn-lg btn-orange'][normalize-space()='Learn More']")
+FV_ELMNTS_DRPDWN_MNU_HR = (By.XPATH, "//li[@class='nav-item']")
+SCR_EML_TXT = (By.XPATH, "(//li[@class='nav-item'])[1]")
+HLP_DSK_INTGRTN_TXT = (By.XPATH, "(//li[@class='nav-item'])[2]")
+SCR_FL_EXCHNG_TXT = (By.XPATH, "(//li[@class='nav-item'])[3]")
+SND_SFLY_DRP_ZN_TXT = (By.XPATH, "(//li[@class='nav-item'])[4]")
+DVLPR_API_TXT = (By.XPATH, "(//li[@class='nav-item'])[5]")
 
 class MainPage(Page):
 
@@ -112,6 +120,7 @@ class MainPage(Page):
     # 11 "Sign up Now" button is here
     def sgn_p_btn(self, sgn_p_btn_txt):
         sgn_p_btn = self.driver.find_element(*SGN_P_BTN)
+        sleep(4)
         expected_text = sgn_p_btn_txt
         actual_text = (sgn_p_btn).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
@@ -123,4 +132,109 @@ class MainPage(Page):
         expected_text = lrn_mr_btn_txt
         actual_text = (lrn_mr_btn).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+    # End of the above code
+
+    # sendsafely_pytested_bttns_clckd_2
+    # 1 Click "Features" button. Verify "https://www.sendsafely.com/features/" is open
+    def ftrs_btn(self, ftr_url):
+        ftrs_btn = self.driver.find_element(*FTRS_BTN)
+        ftrs_btn.click()
+        if self.driver.current_url == 'https://www.sendsafely.com/features/':
+            print(f'\nhttps://www.sendsafely.com/features/ is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/features/ is not here')
+        self.driver.back()
+    # End of the above code
+
+    # 2 Hover over "Solutions" button. Verify 5 submenu items with texts are here
+    def sltns_btn_clck(self):
+        sltns_btn_clck = self.driver.find_element(*SLTNS_BTN)
+        actions = ActionChains(self.driver)
+        actions.move_to_element(sltns_btn_clck).perform()
+        fv_elmnts_drpdwn_mn_hr = self.driver.find_elements(*FV_ELMNTS_DRPDWN_MNU_HR)
+        if len(fv_elmnts_drpdwn_mn_hr) == 5:
+            print(f'\n5 elements are here')
+        else:
+            print(f'\nwrong output: {len(fv_elmnts_drpdwn_mn_hr)}')
+
+        scr_eml = self.driver.find_element(*SCR_EML_TXT)
+        expected_text = "Secure Email"
+        actual_text = (scr_eml).text
+        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+
+        hlp_dsk_intgrtn = self.driver.find_element(*HLP_DSK_INTGRTN_TXT)
+        expected_text = "Help Desk Integrations"
+        actual_text = (hlp_dsk_intgrtn).text
+        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+
+        scr_fl_exchng = self.driver.find_element(*SCR_FL_EXCHNG_TXT)
+        expected_text = "Secure File Exchange"
+        actual_text = (scr_fl_exchng).text
+        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+
+        snd_sfly_drp_zn = self.driver.find_element(*SND_SFLY_DRP_ZN_TXT)
+        expected_text = "SendSafely Dropzone"
+        actual_text = (snd_sfly_drp_zn).text
+        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+
+        dvlpr_api = self.driver.find_element(*DVLPR_API_TXT)
+        expected_text = "Developer API"
+        actual_text = (dvlpr_api).text
+        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+    # End of the above code
+
+    # 3 Click "Pricing" button. Verify "https://www.sendsafely.com/pricing/" is open
+    def prcng_btn_clck(self):
+        prcng_btn_clck = self.driver.find_element(*PRCN_BTN)
+        prcng_btn_clck.click()
+        if self.driver.current_url == 'https://www.sendsafely.com/pricing/':
+            print(f'\nhttps://www.sendsafely.com/pricing/ is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/pricing/ is not here')
+        self.driver.back()
+    # End of the above code
+
+    # 4 Click "How it Works" button. Verify "https://www.sendsafely.com/howitworks/" is open
+    def hw_i_wrks_btn_clck(self):
+        hw_i_wrks_btn_clck = self.driver.find_element(*HW_T_WRKS_BTN)
+        hw_i_wrks_btn_clck.click()
+        if self.driver.current_url == 'https://www.sendsafely.com/howitworks/':
+            print(f'\nhttps://www.sendsafely.com/howitworks/ is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/howitworks/ is not here')
+        self.driver.back()
+    # End of the above code
+
+    # 5 Click "Blog" button. Verify "https://blog.sendsafely.com/" is open
+    def blg_btn_clck(self):
+        blg_btn_clck = self.driver.find_element(*BLG_BTN)
+        blg_btn_clck.click()
+        if self.driver.current_url == 'https://blog.sendsafely.com/':
+            print(f'\nhttps://blog.sendsafely.com/ is here')
+        else:
+            print(f'\nhttps://blog.sendsafely.com/ is not here')
+        self.driver.back()
+    # End of the above code
+
+    # 6 Click "Log In" button. Verify "https://www.sendsafely.com/auth/" is open
+    def lgn_btn_clck(self):
+        lgn_btn_clck = self.driver.find_element(*LGN_BTN)
+        lgn_btn_clck.click()
+        if self.driver.current_url == 'https://www.sendsafely.com/auth/':
+            print(f'\nhttps://www.sendsafely.com/auth/ is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/auth/ is not here')
+        self.driver.back()
+    # End of the above code
+
+    # 7 Click "Request Demo" button. Verify "https://www.sendsafely.com/" is open
+    def rqst_dm_btn_clck(self):
+        rqst_dm_btn_clck = self.driver.find_element(*RQST_DM_BTN)
+        rqst_dm_btn_clck.click()
+        if self.driver.current_url == 'https://www.sendsafely.com/':
+            print(f'\nhttps://www.sendsafely.com/ is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/ is not here')
+        self.driver.back()
+
     # End of the above code

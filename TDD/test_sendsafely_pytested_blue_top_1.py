@@ -26,6 +26,7 @@ def test_sendsafely_pytested_blue_top_1():
     SGN_P_BTN = (By.XPATH, "//section[@class='agency_banner_area_two']//a[1]")
     LRN_MR_BTN = (By.XPATH, "//a[@id='intro-button']//div[@class='btn btn-lg btn-orange'][normalize-space()='Learn More']")
 
+
     # Click button "Accept" cookies
     driver.find_element(*ACPT_CCKS_BTN).click()
 
