@@ -1,1 +1,1 @@
-allure serve test_results/
+allure serve bdd_test_results/

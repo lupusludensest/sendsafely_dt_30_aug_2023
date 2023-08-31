@@ -1,1 +1,1 @@
-behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/
+behave -f allure_behave.formatter:AllureFormatter -o bdd_test_results/ features/
