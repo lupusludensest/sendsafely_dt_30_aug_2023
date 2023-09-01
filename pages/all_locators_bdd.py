@@ -20,3 +20,6 @@ HLP_DSK_INTGRTN_TXT = (By.XPATH, "(//li[@class='nav-item'])[2]")
 SCR_FL_EXCHNG_TXT = (By.XPATH, "(//li[@class='nav-item'])[3]")
 SND_SFLY_DRP_ZN_TXT = (By.XPATH, "(//li[@class='nav-item'])[4]")
 DVLPR_API_TXT = (By.XPATH, "(//li[@class='nav-item'])[5]")
+EML_ADDRSS_FLD = (By.XPATH, "//input[@id='regEmail']")
+GT_STRTD_BTN = (By.XPATH, "//button[@id='login-registration-button']")
+

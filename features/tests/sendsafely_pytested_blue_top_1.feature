@@ -1,8 +1,7 @@
 # Created by rapid at 8/30/2023
 Feature: # sendsafely_pytested_blue_top_1
-  # Testing the blue top of the app. 12 steps. All elements are present and as expected
 
-  Scenario: # sendsafely_pytested_blue_top_1
+  Scenario: # Testing the blue top of the app. 12 steps. All elements are present and as expected
     Given Loginpage
     Then Click button "Accept" cookies
     Then 1 Picture SENDSAFELY '/img/ss_logo_60_343.png' is present

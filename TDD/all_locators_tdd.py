@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 # Locators
 SND_SFL_PCTR = (By.XPATH, "//img[@src='/img/ss_logo_60_343.png']") # (By.XPATH, "//img[@alt='logo']")
 GLB_S_SCHM_PCTR = (By.XPATH, "//img[@src='/img/globe_lines.png']")
@@ -21,3 +20,7 @@ LGN_BTN = (By.XPATH, "//a[@href='/auth/']")
 RQST_DM_BTN = (By.XPATH, "//nobr[normalize-space()='Request Demo']")
 SGN_P_BTN = (By.XPATH, "//section[@class='agency_banner_area_two']//a[1]")
 LRN_MR_BTN = (By.XPATH, "//a[@id='intro-button']//div[@class='btn btn-lg btn-orange'][normalize-space()='Learn More']")
+EML_ADDRSS_FLD = (By.XPATH, "//input[@id='regEmail']")
+GT_STRTD_BTN = (By.XPATH, "//button[@id='login-registration-button']")
+
+

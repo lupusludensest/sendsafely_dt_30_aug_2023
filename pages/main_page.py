@@ -4,6 +4,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
+import random
+import string
 
 class MainPage(Page):
 
@@ -215,5 +217,44 @@ class MainPage(Page):
         else:
             print(f'\nhttps://www.sendsafely.com/ is not here')
         self.driver.back()
+    # End of the above code
 
+    # Sign up by randomized email. Verify "https://www.sendsafely.com/auth/#signup" is open.
+    # 1 Click button "Sign up Now"
+    def clck_sgb_p_btn(self):
+        self.driver.find_element(*SGN_P_BTN).click()
+    # End of the above code
+
+    # 2 Enter the email randomized to "Email address" empty field
+    def ntr_rndmzd_eml_t_clnsd_emty_fld(self):
+        def generate_random_email():
+            domain = random.choice(['gmail.com', 'yahoo.com', 'hotmail.com'])
+            username = ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
+            email = f"{username}@{domain}"
+            return email
+
+        # Generate random email, login, and password
+        random_email = generate_random_email()
+
+        print(f"\nRandom Email: {random_email}")
+
+        # Send randomly generated email to cleansed and empty email field
+        empty_email_field = self.driver.find_element(*EML_ADDRSS_FLD)
+        empty_email_field.clear()
+        empty_email_field.send_keys(random_email)
+    # End of the above code
+
+    # 3 Click on "Get Started" button
+    def clck_n_gt_strd_btn(self):
+        self.driver.find_element(*GT_STRTD_BTN).click()
+    # End of the above code
+
+    # 4 Verify "https://www.sendsafely.com/auth/#signup" is open
+    def vtf_sgn_p_url_pn(self):
+        self.driver.find_element(*GT_STRTD_BTN)
+        if self.driver.current_url == 'https://www.sendsafely.com/auth/#signup':
+            print(f'\nhttps://www.sendsafely.com/auth/#signup is here')
+        else:
+            print(f'\nhttps://www.sendsafely.com/auth/#signup is not here')
+        self.driver.back()
     # End of the above code

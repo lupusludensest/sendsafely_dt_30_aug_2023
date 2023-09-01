@@ -1,1 +1,1 @@
-allure serve allure_bdd_reports/
+allure serve allure_bdd_reports
