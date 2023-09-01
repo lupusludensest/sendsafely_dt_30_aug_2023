@@ -1,0 +1,3 @@
+pytest --alluredir=allure_api_reports
+pytest --alluredir=allure_api_reports test_sendsafely_api_get_text_security_1.py
+pytest --alluredir=allure_api_reports test_sendsafely_api_post_email_2.py

@@ -1,0 +1,754 @@
+
+Random Email: 8g4hzsuu@hotmail.com
+b'\n\n\n\n\n\n\n\n\n\n\n \n<!DOCTYPE html>\n<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  \n<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  \n<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  \n<head>\n    <title>Welcome to SendSafely</title>\n    <!-- Meta -->\n    <meta charset="utf-8">\n    \n    \n    \t<meta name="description" content="SendSafely&#58; The End-to-End Encryption Platform for Secure File Exchange and Confidential Email">\n     \n    <meta http-equiv="X-UA-Compatible" content="IE=edge">\n    \n\t<meta name="format-detection" content="address=no" />\n\t<meta name="format-detection" content="email=no" />\n\t<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/glpichgelkekjnccdflklcclhnoioblm">\n    \n    \n   \n    \n    \t<meta name="viewport" content="width=device-width, user-scalable=0" />\n    \n    \t \n    \n    \n    \n \n    <meta name="author" content="">    \n    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">\n\t<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">\n\t<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">\n\t<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">\n\t<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">\n\t<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">\n\t<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">\n\t<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">\n\t<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">\n\t<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">\n\t<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">\n\t<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">\n\t<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">\n\t<link rel="manifest" href="/images/favicon/manifest.json">\n\t<meta name="msapplication-TileColor" content="#ffffff">\n\t<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">\n\t<meta name="theme-color" content="#ffffff">\n    \n\t<link rel="stylesheet" media="all" type="text/css" href="/css/animate.css?nocache=1998077310" />\n\t<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap-switch.min.css?nocache=1998077310" /> \n\t<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap.min.css?nocache=1998077310" />\n\t<link rel="stylesheet" href="/css/v3/font-awesome.min.css?nocache=1998077310">\n\t<link rel="stylesheet" type="text/css" href="/css/v3/flags.css?nocache=1998077310" media="screen">\n\t<link rel="stylesheet" media="all" type="text/css" href="/css/main.css?nocache=1998077310" />\n\t<link rel="stylesheet" media="all" type="text/css" href="/css/v3/jquery.qtip.min.css?nocache=1998077310" />\n\t<!--  GET RID OF JQUI -->\n\t<link rel="stylesheet" media="all" type="text/css" href="/css/jquery-ui.css?nocache=1998077310" />\n\t<link id="theme-style" rel="stylesheet" href="/assets/css/styles.css?nocache=1998077310">\n\t<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap-datepicker.min.css?nocache=1998077310" /> \n\t\n\t<link id="enterprise-stylesheet" rel="stylesheet" media="all" type="text/css" href="/EnterpriseStyle/?type=css" />\n   \t<!--[if lt IE 9]>\n   \t<link rel="stylesheet" href="/css/v3/ie8.css">\n    <![endif]-->\t\t\n    \n\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.min.js?nocache=1998077310"></script>\n\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/timezones.js?nocache=1998077310"></script>\n\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/jstz.min.js?nocache=1998077310"></script> \n\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/moment.min.js?nocache=1998077310"></script>\n\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/moment-timezone-2010-2020.min.js?nocache=1998077310"></script> \n\t\n\t \n\t\t<script type="text/javascript" src="/js/i18n/messagesBundle_en_US.js?nocache=1998077310"></script>\n\t \n\t \n\t\n</head> \n\n<body>\n\t\n\t\n \t \n    \n    <div id="usage-meter" style="display:none" \n \tdata-account-limit=""\n \tdata-account-bandwidth-limit=""\n \tdata-current-ul=""\n\tdata-current-bandwidth=""\n\tdata-chosen-locale="en_US"\n\t></div>\n        <!-- ******HEADER****** --> \n\t\n\t\n\t<div id="timezoneVariables" style="display:none" \n\tdata-old-timezone=""\n\tdata-new-timezone="UTC" ></div>\n\t\n\t\n\t<div class="app-wrapper">\n\t\t<!-- AUTH NAVIGATION -->\n\t<div id="navbar-div" class="navbar bs-docs-nav sticky-navigation" style="border-radius:0px; margin-bottom: 0px; ">\n\t\t<div class="container-fluid" style="min-width:420px">\n\t\t\t<div style="margin-top:0px;" class="navbar-header">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span style="display: block; height:65px">\n\t\t\t\t<a draggable="false" style="opacity:1" class="navbar-left" \n\t\t\t\t\t\n\t\t\t\t>\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t<img id="navbar-logo" draggable="false" class="brand-logo" height="60" WIDTH="343" style="margin-left:10px; margin-top:2px;" src="/images/ss_logo_120_686.png" alt="">\n\t\t\t\t\n\t\t\t\t</a></span>\n\t\t\t</div>\n\t\t\t\n\t\t\t<!-- NAVIGATION LINKS -->\n\n\t\t\t\t<div class="navbar-collapse collapse" id="navbar-collapse" style="margin-top:10px" >\n\t\t\t\t\t<ul style="margin-top:2px;" class="nav navbar-nav navbar-right">\n\t\t\t\t\t \n\t\t\t\t \n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\t\t<!-- /END CONTAINER -->\n\t\t\n\t</div>\n\n\t<!-- /END AUTH NAVIGATION -->\n\t<br><br>\n\t\n\t<div align="center" id="loading_container" style="display:none;">\n    <br><br><br><br><br><br>\n   \n        <br>   \n        <table align="center" border="0"><tr>\n        <td>\n        <IMG SRC="/images/circle_loading.gif" style="padding-right:10px" align="left"/>\n        </td>\n        <td align="left">\n        <div class="error">Please wait while the page is loading</div>\n        </td>\n        </tr></table>\n        <br>       \n\t</div>\n\t\n\t<div id="content" class="content-container container-fluid">\n\t\n\t\t<div id="sendSafelyModalTemplate">\n\t\t    <div id="sendSafelyModal" class="modal fade" id="workspace-tease-modal" tabindex="-1" role="dialog" aria-hidden="true" style="visibility:hidden;">\n\t\t        <div class="modal-dialog">\n\t\t            <div class="modal-content">\n\t\t                <div class="modal-body">\n\t\t                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>\n\t\t                    <table>\n\t\t                        <tr>\n\t\t                            <td align="left">\n\t\t                                <i style="margin-right:20px; color:#5cb85c; font-size:60px;" id="headerIcon" class="fa fa-flag"></i>\n\t\t                            </td>\n\t\t                            <td>\n\t\t                                <div class="page_title" style="margin-bottom:0px;">Business Tier Feature</div>\n\t\t                                <div id="subHeadingTop" style="font-weight:bold; "></div>\n\t\t                            </td>\n\t\t                        </tr>\n\t\t                        <tr>\n\t\t                            <td>\n\t\t                            </td>\n\t\t                            <td>\n\t\t                                <div style="margin-top:15px; font-weight:400" id="blurbBody"></div>\n\t\t                                <div id="subHeadingBottom" style="margin-top:15px; margin-bottom:10px; font-weight:bold"></div>\n\t\t                            </td>\n\t\t                        </tr>\n\t\t                    </table>\n\t\t                    <div align="right" style="width:100%; margin-top:15px;">\n\t\t                        <a style="margin-right:10px; color:#666666;" class="btn btn-default" id="linkOption" href="{link href}" target="_blank"></a>\n\t\t                        <button type="button" data-dismiss="modal" class="enterprise-demo-cta btn btn-success">\n\t\t                            <span id="buttonText"></span>\n\t\t                        </button>\n\t\t                    </div>\n\t\t                </div>\n\t\t            </div>\n\t\t        </div>\n\t\t    </div>\n\t\t</div>\n\n\n\n\n\n\n\n\n\n\n\n<div id="variables" style="display:none"\n data-page="login"\n \n \n data-csp-url=\'https&#58;&#47;&#47;static-www.sendsafely.com\' \n data-ios-redirect="false"\n data-ios-old-version="false"\n data-ios-redirect-url="&#47;ios&#47;"\n data-redirect-url=""\n></div>\n\t\t<div align="center" style="margin:0 auto;">\n\n\t\t\n\t\t\n\t\t\n\n\t\t\t\t<div style="font-size:30px" class="page_title">\n\t\t\t\t\n\t\t\t\t\tWelcome to SendSafely\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tFor help, please visit our <a href=\'https://sendsafely.zendesk.com/home\' target="_blank">Online Help Center</a>.\n\t\t\t\t<br><br>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t<div id="register-dialog" class="panel panel-default" style="min-width:340px; max-width:450px; display:none">\n\t\t\t\t\t<div class="panel-heading">\n\t\t\t\t\t\t\t<span style="font-weight:bold; font-size:16px;">Register a new Account</span>\n\n\t\t\t\t\t</div>\t\t\t\n\n                    <div class="panel-body">\n                    \t<div>\n\n\t\t\t\t\t\t \t<div id="regdialog1" >\n\t\t\t\t\t\t \t\n\t\t\t\t\t\t \t\t<div align="center">\n\t\t\t\t\t\t \t\t\t<FORM ID="startRegForm">\n\t\t\t\t\t\t \n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\tLet\'s start by verifying your email address:<br><br>\n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\n\t\t\t\t\t\t \t\t\t\t\n\t\t\t\t\t\t \t\t\t\t<button style="color:#666666; min-width:305px; max-width:315px;" type="button" class="btn btn-default google-login">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t \t\t\t\t<IMG SRC="/images/ga-icon-64.png" height="20" width="20" style="margin-right:5px;">\n\t\t\t\t\t\t\t\t\t\tLogin using your Google Account\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t<div style="margin-top:5px; margin-bottom:10px">&nbsp;&nbsp;or&nbsp;&nbsp;</div>\n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\t<div id="g-recaptcha-3"></div>\n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\t<div class="input-group" style="width:305px">\n\t\t\t\t\t\t \t\t\t\t<INPUT class="form-control" TYPE="email" ID="regEmail" PLACEHOLDER="Email address" NAME="regEmail" AUTOCOMPLETE="off"/>\n\t\t\t\t\t\t \t\t\t\t<div class="input-group-btn">\n\t\t\t\t\t\t \t\t\t\t\t<button type="button" id="login-registration-button" class="btn btn-success">Get Started</button>\n\t\t\t\t\t\t \t\t\t\t</div>\n\t\t\t\t\t\t \t\t\t\t\n\t\t\t\t\t\t \t\t\t</div>\n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t\t \t\t\t</FORM>\n\n\t\t\t\t\t\t \t\t\n\t\t\t\t \t\t\t\t\n\t\t\t\t\t\t \t\t\n\t\t\t\t\t\t \t\t</div>\n\t\t\t\t\t\t \t\n\t\t\t\t\t\t \t</div>\n\t\t\t\t\t\t \t<div id="regdialog2" style="display:none;text-align:center;" align="center">\n\t\t\t\t\t\t \t\t<br>\n\t\t\t\t\t\t \t\t<b>We just sent you instructions on what to do next.</b>\n\t\t\t\t\t\t \t\t<br><br>\n\t\t\t\t\t\t \t\tAn email with a registration link was just sent to you. If you can\'t find the email, check your junk mail folder.      \n\t\t\t\t\t\t \t</div>\n\n\t\t\t\t \t\t</div>\n\t\t\t\t \t\t<br>\n\t\t\t\t \t\t<a href="/auth/" style="margin-left:15px;color:#666666;font-weight:normal" class="btn btn-default">Back to Login</a>\n\t\t\t\t\t\t<span class="login-registration-loading" style="padding-left:5px; visibility:hidden;"><IMG SRC="/images/loading.gif" height="16" width="16"></span>\n\t\t\t\t \t</div>   \t\t\n\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<div id="password-reset-dialog" class="panel panel-default" style="height: 280; max-width:420px; min-width:340px;display:none">\n\t\t\t\t\t<div class="panel-heading">\n\t\t\t\t\t\t\t<span style="font-weight:bold; font-size:16px;">Reset your Password</span>\n\t\t\t\t\t</div>\t\n                    \n                    <div class="panel-body">\n                 \t\t<div>\n\t\t\t\t \t\t<div id="pwdialog1" align="center">\n\t\t\t\t \t\t\t<div align="center">\n\t\t\t\t \t\t\tTell us your email address. <br class="hidden-xs">We\'ll send you instructions on what to do next.\n\t\t\t\t\t\t\t<br><br>\n\t\t\t\t \t\t\t<FORM ID="pwResetForm">\n\t\t\t\t \t\t\t\t<div id="g-recaptcha-2" align="center"></div>\n\t\t\t\t \t\t\t\t<br>\n\t\t\t\t \t\t\t\t<div class="input-group" style="width:300px">\n\t\t\t\t \t\t\t\t<INPUT placeholder="What is your email address?" class="form-control" TYPE="email" ID="pwEmailField" NAME="pwEmailField" AUTOCOMPLETE="off"/>\n\t\t\t\t \t\t\t\t<span class="input-group-btn">\n\t\t\t\t \t\t\t\t\t<button type="button" id="login-reset-button" class="btn btn-success" style="margin:0px 0px 0px 0px;">Continue</button>\n\t\t\t\t \t\t\t\t</span>\n\t\t\t\t \t\t\t\t</div>\n\t\t\t\t \t\t\t\n\t\t\t\t \t\t\t</FORM>\n\t\t\t\t \t\t\t</div>\n\t\t\t\t \t\t</div>\n\t\t\t\t \t\t<div align="center" id="pwdialog2" style="display:none">\n\t\t\t\t \t\t<br><b>A password reset email was just sent.</b>\n\t\t\t\t\t\t<br>\n\t\t\t\t \t\t<br><br>\n\t\t\t\t \t\t<div style="font-size:14px">\n\t\t\t\t \t\tFollow the instructions in the email to change your password.<br>If you can\'t find the email, check your junk mail folder.<br>\n\t\t\t\t \t\t</div>\n\t\t\t\t \t\t</div>\n\t\t\t\t \t\t</div>\n\t\t\t\t \t\t<br><br>\n\t\t\t\t \t\t<a href="/auth/" style="margin-left:15px;color:#666666;font-weight:normal" class="btn btn-default">Back to Login</a><span id="login-reset-loading" style="padding-left:5px; visibility:hidden; overflow:auto;"><IMG SRC="/images/loading.gif" height="16" width="16"></span>\n\t\t\n\t\t\t\t \t</div>      \n              \t</div>\n              \t\t          \n              \t\t\t\n              <div class="panel panel-default" style="max-width:420px; min-width:340px;" id="login-dialog">\n                    \n                     \n                    <div class="panel-body">\n                    \n\t\t\t\t\t\t \t\t\t\n\t\t\t\t\t<FORM ID="loginForm" NAME="loginForm" method="POST"> \n\n\t\t\t\t\t\t<div align="left">Email Address:<br></div>\n\t\t\t\t\t\t<INPUT class="form-control" TYPE="email" ID="emailField" NAME="emailField" AUTOCOMPLETE="off" VALUE=""/><br>\n\n\t\t\t\t\t\t<div align="left">Password:<br></div>\n\t\t\t\t\t\t<INPUT class="form-control" TYPE="password" ID="login-passwordField" NAME="passwordField" AUTOCOMPLETE="off"/>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<input type="hidden" name="loginCSRFToken" value="khlwoWfA4eXfOO5ihAhGOVbG420feuafum-2Cxp-Z6k"/>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t<button class="btn btn-success" style="width:100%" id="login-loginFormSubmit"/><span class="sign-in-button-text">Sign in!</span><span style="display:none" class="sign-in-button-working"><i class="fa fa-spinner fa-spin"></i></span></button>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t \t</FORM>\n\t\t\t\t\t\n\t\t\t\t \n\n\t\t\t\t\t\t\t<div style="padding-top:5px; padding-bottom:5px" align="center">\n\t\t\t\t\t\t\tor\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<button style="color:#666666; width:100%" type="button" class="btn btn-default google-login">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<IMG SRC="/images/ga-icon-64.png" height="20" width="20" style="margin-right:5px">\n\t\t\t\t\t\t\tLogin using your Google Account\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t \t\t\t\t\t\n\t\t\t\t\t<div style="padding-top:30px;" class="row btn-group">\n  \t\t\t\t\t\t<button style="max-width:165; min-width:150;" id="password-reset-button" type="button" class="btn btn-default">Reset Password</button>\n  \t\t\t\t\t\t\n  \t\t\t\t\t\t <button style="max-width:165; min-width:150;" id="register-button" type="button" class="btn btn-default">Register Now</button>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t \t\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\n\n\t\t\n\t\t\t\n\t\t</div>\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div align="center">\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\n\t\t\n\n\t\n\t\t\n\t\t\n\t\t\n        \n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t<style>\n\t\t\t.grecaptcha-badge {display: none;}\n\t\t\tul.dropdown-menu {\n\t\t\t    margin-top:10px;\n\t\t\t    margin-right:-16px;\n\t\t\t    cursor: pointer;\n\t\t\t}\n\t\t</style>\n\n\t\t<div class="modal" id="mobile-loading-modal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t<div style="margin-top:200px; width:160px;" class="modal-dialog modal-vertical-centered">\n\t\t<div class="modal-content">\n\t\t<div class="modal-body" align="center" style="background:#000000">\n\t\t<IMG style="margin-top:-5px; text-align:top; margin-right:7px" align="left" height="32" width="32" SRC="/images/mobile-loading.gif"><span style="color:#FFFFFF"><b>Loading...</b></span>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\t\t<div class="modal" id="ios-promo-modal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t<div style="margin-top:0px; margin-bottom:0px; height:100%; width:100%;" class="modal-dialog">\n\t\t<div style="border:0px; background-size: 100% auto;  background-color: #2D5575; height:100%;" class="modal-content">\n\t\t<div align="center" class="modal-body">\n\t\t<IMG style="width: auto; max-height:75%;" SRC="/images/iphone-promo-image.png">\n\t\t<br>\n\t\t<a href="https://itunes.apple.com/app/sendsafely/id969306054"><IMG src="/images/iphone-app-store-button.png" style="border:0; margin-top:20px; margin-bottom:15px;  width:150px; height:45px"></a>\n\t\t<br>\n\t\t<a href="/home/" style="color:#FFFFFF">Proceed to Mobile Site &raquo;</a>\n\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\t\t<div class="modal fade" id="browser-compatibility-warning-modal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t\t<div class="modal-dialog modal-lg">\n\t\t\t\t<div class="modal-content">\n\t\t\t\t\t<div class="modal-header">\n\t\t\t\t\t\t<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>\n\t\t\t\t\t\t<i style="float:left; color:#f0ad4e; margin-top:2px; padding-right:10px;" class="fa fa-exclamation-circle fa-3x"></i>\n\t\t\t\t\t\t<div class="error">Browser Compatibility Warning</div>\n\t\t\t\t\t\tYour web browser does not support large file downloads using SendSafely.\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class="modal-body">\n\t\t\t\t\t\t<div class="default-compatibility-warning" style="">\n\t\t\t\t\t\t\tWe recommend that you use one of the following supported browsers instead&#58;\n\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<ul style="margin-top:10px;">\n\t\t\t\t\t\t\t<li><b>Chrome</b>&nbsp;<span style="font-size:12px">&#40;v67 and higher&#41;</span></li>\n\t\t\t\t\t\t\t<li><b>Firefox</b>&nbsp;<span style="font-size:12px">&#40;v65 and higher&#41;</span></li>\n\t\t\t\t\t\t\t<li><b>Edge</b>&nbsp;<span style="font-size:12px">&#40;v79 and higher&#41;</span></li>\n\t\t\t\t\t\t\t<li><b>Safari</b>&nbsp;<span style="font-size:12px">&#40;v12.1 and higher&#41;</span></li>\n\t\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t\t\tYou may choose to continue, however large files may not successfully download.\n\t\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t\t<div align="right">\n\t\t\t\t\t\t\t<a target="_" style="margin-bottom:15px; color:#333333; font-weight:normal; margin-left:10px; margin-right:10px;" href="https://sendsafely.zendesk.com/hc/en-us/articles/360052718631" class="btn btn-default">Learn more</a>\n\t\t\t\t\t\t\t<button style="margin-bottom:15px; margin-left:10px; margin-right:10px;" id="ie-warn-ok" data-dismiss="modal" class="btn btn-default">Continue</button>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class="modal fade" id="appletErrorModal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t<div class="modal-dialog">\n\t\t<div class="modal-content">\n\t\t<div class="modal-header">\n\t\t<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>\n\t\t<i style="color:#B22222; float:left; margin-top:3px; margin-left:3px; padding-right:10px" class="fa fa-exclamation-triangle fa-3x"></i>\n\t\t<h4 class="modal-title">Oops&#33;</h4>\n\t\t\tAn error has occurred while SendSafely was running in your browser.\n\t\t</div>\n\t\t<div class="modal-body">\n\t\tError Message&#58;  <span id="exceptionMessage"></span>\n\t\t<br><br>\n\t\tIf the problem persists and you cannot fix it, please contact support&#64;sendsafely.com.\n\t\t<br><br>\n\t\t<table align="center" border="0">\n\t\t<tr><td style="width:20px"></td><td id="all-detailedInfoButtonRegion" style="display:none" align="center" style="width:275px">\n\t\t<span><a id="all-detailedInfoButton" class="btn btn-default"><span>Show Detailed Error Information</span></a></span>\n\t\t</td></tr>\n\t\t</table>\n\t\t<div class="small" align="center">\n\t\t<br><a href="/">Click here</a> to return to the main landing page.\n\t\t</div>\n\n\t\t<div id="stackTraceContainer" style="display:none">\n\t\t<br>\n\t\t<div align="center">\n\t\t<textarea style="font-size:8pt; min-height: 100px; min-width:550px; max-width:550px" id="stackTrace">\n\t\t</textarea>\n\t\t</div>\n\t\t</div>\n\t\t<FORM ID="ajaxForm"></FORM>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\t\t<div class="modal fade" id="enterprise-demo-cta-modal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t<div class="modal-dialog">\n\t\t<div class="modal-content" style="margin:auto; max-width:450px">\n\t\t<div class="modal-header" style="border-top-left-radius: 6px; border-top-right-radius: 6px; background: #f5f5f5;">\n\n\t\t<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>\n\t\t<div id="enterprise-demo-modal-title" style="font-size:20px; font-weight:bold">Request an Enterprise Demo</div>\n\t\t<div id="enterprise-demo-modal-description" style="font-size:14px;">Tell us a little more about yourself...</div>\n\n\t\t</div>\n\t\t<div class="modal-body">\n\n\t\t<div style="max-width:450px">\n\n\t\t<div id="landing-form-inputs">\n\t\t<form name="landing-form" id="landing-form">\n\t\t<input name="test" value="test" type="hidden">\n\t\t<input id="landing-source-teaser" name="landing-source-teaser" value="" type="hidden">\n\t\t<input id="landing-form-redirect-url" name="landing-form-redirect-url" value="" type="hidden">\n\t\t<span style="font-size:13px; font-weight:bold">First Name<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-first-name" id="landing-first-name" type="text" maxlength=\'255\'  > \n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-first-name-mandatory">Please complete this mandatory field</div>\n\t\t<span style="font-size:13px; font-weight:bold">Last Name<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-last-name" id="landing-last-name" type="text" maxlength=\'255\' >\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-last-name-mandatory">Please complete this mandatory field</div>\n\t\t<span style="font-size:13px; font-weight:bold">Work Email<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-email" id="landing-email" type="text" maxlength=\'255\' >\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-email-mandatory">Please complete this mandatory field</div>\n\t\t<span style="font-size:13px; font-weight:bold">Company Name<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-company-name" id="landing-company-name" type="text" maxlength=\'255\'>\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-company-name-mandatory">Please complete this mandatory field</div>\n\t\t<span style="font-size:13px; font-weight:bold">Estimated Number of SendSafely Users<span style="color:red">*</span></span>\n\t\t<select class="landing-mandatory-text form-control" name="landing-employee-count" id="landing-employee-count">\n\t\t<option value="--- Select an Option ---">--- Select an Option ---</option>\n\t\t<option value="1-5">1-5</option>\n\t\t<option value="5-25">5-25</option>\n\t\t<option value="25-50">25-50</option>\n\t\t<option value="50-100">50-100</option>\n\t\t<option value="100-500">100-500</option>\n\t\t<option value="500-1000">500-1000</option>\n\t\t<option value="1000+">1000+</option>\n\t\t</select>\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-employee-count-mandatory">Please select an option from the dropdown</div>\n\n\t\t<span style="font-size:13px; font-weight:bold">Phone Number<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-phone-number" id="landing-phone-number" type="text" maxlength=\'255\'>\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-phone-number-mandatory">Please complete this mandatory field></div>\n\n\t\t<span style="font-size:13px; font-weight:bold">Job Title<span style="color:red">*</span></span>\n\t\t<input class="landing-mandatory-text form-control" name="landing-job-title" id="landing-job-title" type="text" maxlength=\'255\'>\n\t\t<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-job-title-mandatory">Please complete this mandatory field></div>\n\n\t\t<input type="hidden" name="landing-url" value="&#47;auth&#47;?">\n\t\t<br>\n\n\t\t<div id=\'recaptcha\' align="center"></div>\n\t\t<div align="center">\n\t\t<a style="margin-left:26px" id="landing-form-submit" class="btn btn-success" data-google-conversion-label="">Get Started!</a>\n\t\t<img id="landing-form-working" style="visibility:hidden; margin-left:10px;" height="16" width="16" src="/images/loading.gif"></div>\n\t\t<br>\n\t\t</form>\n\t\t</div>\n\t\t<div style="display:none" id="landing-form-completed">\n\t\t<br>\n\t\t<div align="center">\n\t\t<b>Thank you. A member of our team will reach<br>out to you shortly with more information.</b>\n\t\t</div>\n\t\t<br><br>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\t\t</div> <!--//content-container -->\n\t\t<div id="appletContainer"></div>\n\n\t\t<div class="modal fade" id="personal-url-modal" tabindex="-1" role="dialog" aria-hidden="true">\n\t\t<div class="modal-dialog">\n\t\t<div class="modal-content">\n\t\t<div class="modal-header">\n\t\t<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>\n\t\t<i style="float:left; margin-top:0px; padding-right:10px" class="fa fa-cloud-download fa-3x"></i>\n\t\t<h4 class="modal-title">Your Personal SendSafely URL</h4>\n           Use your personal SendSafely URL to have people send you items.\n\t\t</div>\n\t\t<div class="modal-body">\n\n\t\t<div style="display:none" id="personal-url-modal-ineligible" align="center">\n\n\t\t<strong>The SendSafely Personal URL feature is not available for free accounts.\n           <br class="hidden-xs">Would you like to upgrade now to gain access to this feature?\n\t\t</strong>\n\t\t<br>\n\t\t<br>\n\n\t\t<button style="margin-left:10px; min-width:120px" type="button" data-dismiss="modal" class="btn btn-default">\n\t\t<span>No Thanks</span>\n\t\t</button>\n\t\t&nbsp;&nbsp;&nbsp;\n\n\t\t<a style="margin-right:5px; min-width:120px; color:#FFFFFF;" class="btn btn-success" href="/secure/payments/?tok=null">Upgrade Now</a>\n\n\t\t<br>\n\t\t</div>\n\n\t\t<div id="personal-url-modal-enabled" align="center">\n           \n           Your personal URL is <strong><a href="https://">https://</a></strong>\n\t\t<div style="padding-top:10px">SendSafely will automatically validate the sender\'s email before allowing them to send you items.</div>\n\n\t\t<br>\n\t\t<br>\n\n\t\t<button style="min-width:50px" type="button" data-dismiss="modal" class="btn btn-success">\n\t\t<span>OK</span>\n\t\t</button>\n\n\t\t</div>\n\n\t\t<div style="display:none" id="personal-url-modal-disabled" align="center">\n\t\t<strong>Your personal SendSafely URL is disabled.<br>Would you like to enable this feature now?\n\t\t</strong>\n\n\t\t<div style="padding-top:15px">SendSafely will automatically validate the sender\'s email before allowing them to send you items.<br>\n\n\n\t\t</div>\n\n\t\t<br>\n\n\t\t<button style="margin-left:10px; min-width:100px" type="button" data-dismiss="modal" class="btn btn-default">\n\t\t<span>No Thanks</span>\n\t\t</button>\n\t\t&nbsp;&nbsp;&nbsp;\n\t\t<button id="autoinvite-enable-now" style="margin-right:5px; min-width:100px" type="button" class="btn btn-success">\n\t\t<span>Enable Now</span>\n\t\t</button>\n\t\t<img style="visibility:hidden" id="autoinvite-enable-now-loading" height="16" width="16" src="/images/loading.gif">\n\n\n\t\t</div>\n\n\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\n\t\t<div class="modal fade" id="analytics-modal" role="dialog" aria-hidden="true">\n\t\t<div class="modal-dialog">\n\t\t<div class="modal-content">\n\t\t<div class="modal-header">\n\t\t<h4 class="modal-title"></h4>\n\t\t</div>\n\t\t<div class="modal-body">\n\t\t<iframe src="https&#58;&#47;&#47;analytics-frame.sendsafely.com&#47;www.sendsafely.com&#47;unauthenticated-user&#47;auth&#47;" sandbox="allow-same-origin allow-scripts" id="analytics-buffer-frame"></iframe>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\t\t</div>\n\n\t\t<!-- Auth Javascript -->\n\t\t\n\t\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/errorHandler.js?nocache=1998077310"></script>\n\t\t\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/assets/plugins/bootstrap/js/bootstrap.min.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-switch.min.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-notify.min.js?nocache=1998077310"></script>\n\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/typeahead.jquery.min.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bloodhound.min.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.qtip.min.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-datepicker.min.js?nocache=1998077310"></script>\n\t\t\n\n\t\t\n\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.autosize.min.js?nocache=1998077310"></script>\n\t\t<script type="text/javascript" src="https&#58;&#47;&#47;static-www.sendsafely.com/assets/plugins/detectmobilebrowser.js?nocache=1998077310" crossorigin="anonymous"></script>\n\t\t\n\t\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/anonymousFunctions.min.js?nocache=1998077310" crossorigin="anonymous"></script>\n\t\t\n\t\t\n\t\t<script id="recaptcha-script" src="https://www.recaptcha.net/recaptcha/api.js" async defer data-recaptcha-site-key="6LcAAQ4UAAAAAO09jqmoNN94Rxo66nMiDbhS7j4x"></script>\n\n\t\t\n\t\t\n\t\t\n\t\t<div class="app-footer">\n\t\t<div id="footer-ui-switch-container" style="float:left;padding-left:25px;margin-top:40px;">\n               \n\n\t\t\n\t\t\t<div class="footer-ui-switch" style="display:none; padding-top:10px;margin:0 auto;">\n\t\t\t<div style="display:table-cell; vertical-align:middle;">\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t</div>\n\t\t\t</div>\n\t\t\n\n\t\t</div>\n\n\t\t<div style="float:right;padding-top:30px;padding-right:30px;margin:0 auto;">\n\t\t\n\t\t</div>\n\t\t<div id="flash-test-container" style="float:left"></div>\n\t\t</div>\n\n\t\t</div><!--//wrapper (or app-wrapper)-->\n\n\t\t<!--[if lt IE 9]>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/html5shiv.js?nocache=1998077310"></script>\n\t\t<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/respond.min.js?nocache=1998077310"></script>\n\t\t<![endif]-->\n\n\t\t</body>\n\t\t</html>\n'
+
+
+
+
+
+
+
+
+
+
+
+ 
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Welcome to SendSafely</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    
+    
+    	<meta name="description" content="SendSafely&#58; The End-to-End Encryption Platform for Secure File Exchange and Confidential Email">
+     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="email=no" />
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/glpichgelkekjnccdflklcclhnoioblm">
+    
+    
+   
+    
+    	<meta name="viewport" content="width=device-width, user-scalable=0" />
+    
+    	 
+    
+    
+    
+ 
+    <meta name="author" content="">    
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+    
+	<link rel="stylesheet" media="all" type="text/css" href="/css/animate.css?nocache=1998077310" />
+	<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap-switch.min.css?nocache=1998077310" /> 
+	<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap.min.css?nocache=1998077310" />
+	<link rel="stylesheet" href="/css/v3/font-awesome.min.css?nocache=1998077310">
+	<link rel="stylesheet" type="text/css" href="/css/v3/flags.css?nocache=1998077310" media="screen">
+	<link rel="stylesheet" media="all" type="text/css" href="/css/main.css?nocache=1998077310" />
+	<link rel="stylesheet" media="all" type="text/css" href="/css/v3/jquery.qtip.min.css?nocache=1998077310" />
+	<!--  GET RID OF JQUI -->
+	<link rel="stylesheet" media="all" type="text/css" href="/css/jquery-ui.css?nocache=1998077310" />
+	<link id="theme-style" rel="stylesheet" href="/assets/css/styles.css?nocache=1998077310">
+	<link rel="stylesheet" media="all" type="text/css" href="/css/v3/bootstrap-datepicker.min.css?nocache=1998077310" /> 
+	
+	<link id="enterprise-stylesheet" rel="stylesheet" media="all" type="text/css" href="/EnterpriseStyle/?type=css" />
+   	<!--[if lt IE 9]>
+   	<link rel="stylesheet" href="/css/v3/ie8.css">
+    <![endif]-->		
+    
+	<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.min.js?nocache=1998077310"></script>
+	<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/timezones.js?nocache=1998077310"></script>
+	<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/jstz.min.js?nocache=1998077310"></script> 
+	<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/moment.min.js?nocache=1998077310"></script>
+	<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/moment-timezone-2010-2020.min.js?nocache=1998077310"></script> 
+	
+	 
+		<script type="text/javascript" src="/js/i18n/messagesBundle_en_US.js?nocache=1998077310"></script>
+	 
+	 
+	
+</head> 
+
+<body>
+	
+	
+ 	 
+    
+    <div id="usage-meter" style="display:none" 
+ 	data-account-limit=""
+ 	data-account-bandwidth-limit=""
+ 	data-current-ul=""
+	data-current-bandwidth=""
+	data-chosen-locale="en_US"
+	></div>
+        <!-- ******HEADER****** --> 
+	
+	
+	<div id="timezoneVariables" style="display:none" 
+	data-old-timezone=""
+	data-new-timezone="UTC" ></div>
+	
+	
+	<div class="app-wrapper">
+		<!-- AUTH NAVIGATION -->
+	<div id="navbar-div" class="navbar bs-docs-nav sticky-navigation" style="border-radius:0px; margin-bottom: 0px; ">
+		<div class="container-fluid" style="min-width:420px">
+			<div style="margin-top:0px;" class="navbar-header">
+				
+				
+				<span style="display: block; height:65px">
+				<a draggable="false" style="opacity:1" class="navbar-left" 
+					
+				>
+					
+				
+					<img id="navbar-logo" draggable="false" class="brand-logo" height="60" WIDTH="343" style="margin-left:10px; margin-top:2px;" src="/images/ss_logo_120_686.png" alt="">
+				
+				</a></span>
+			</div>
+			
+			<!-- NAVIGATION LINKS -->
+
+				<div class="navbar-collapse collapse" id="navbar-collapse" style="margin-top:10px" >
+					<ul style="margin-top:2px;" class="nav navbar-nav navbar-right">
+					 
+				 
+				</ul>
+			</div>
+			
+		</div>
+		<!-- /END CONTAINER -->
+		
+	</div>
+
+	<!-- /END AUTH NAVIGATION -->
+	<br><br>
+	
+	<div align="center" id="loading_container" style="display:none;">
+    <br><br><br><br><br><br>
+   
+        <br>   
+        <table align="center" border="0"><tr>
+        <td>
+        <IMG SRC="/images/circle_loading.gif" style="padding-right:10px" align="left"/>
+        </td>
+        <td align="left">
+        <div class="error">Please wait while the page is loading</div>
+        </td>
+        </tr></table>
+        <br>       
+	</div>
+	
+	<div id="content" class="content-container container-fluid">
+	
+		<div id="sendSafelyModalTemplate">
+		    <div id="sendSafelyModal" class="modal fade" id="workspace-tease-modal" tabindex="-1" role="dialog" aria-hidden="true" style="visibility:hidden;">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-body">
+		                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+		                    <table>
+		                        <tr>
+		                            <td align="left">
+		                                <i style="margin-right:20px; color:#5cb85c; font-size:60px;" id="headerIcon" class="fa fa-flag"></i>
+		                            </td>
+		                            <td>
+		                                <div class="page_title" style="margin-bottom:0px;">Business Tier Feature</div>
+		                                <div id="subHeadingTop" style="font-weight:bold; "></div>
+		                            </td>
+		                        </tr>
+		                        <tr>
+		                            <td>
+		                            </td>
+		                            <td>
+		                                <div style="margin-top:15px; font-weight:400" id="blurbBody"></div>
+		                                <div id="subHeadingBottom" style="margin-top:15px; margin-bottom:10px; font-weight:bold"></div>
+		                            </td>
+		                        </tr>
+		                    </table>
+		                    <div align="right" style="width:100%; margin-top:15px;">
+		                        <a style="margin-right:10px; color:#666666;" class="btn btn-default" id="linkOption" href="{link href}" target="_blank"></a>
+		                        <button type="button" data-dismiss="modal" class="enterprise-demo-cta btn btn-success">
+		                            <span id="buttonText"></span>
+		                        </button>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="variables" style="display:none"
+ data-page="login"
+ 
+ 
+ data-csp-url='https&#58;&#47;&#47;static-www.sendsafely.com' 
+ data-ios-redirect="false"
+ data-ios-old-version="false"
+ data-ios-redirect-url="&#47;ios&#47;"
+ data-redirect-url=""
+></div>
+		<div align="center" style="margin:0 auto;">
+
+		
+		
+		
+
+				<div style="font-size:30px" class="page_title">
+				
+					Welcome to SendSafely
+				
+				
+				
+				
+				</div>
+				
+				
+					For help, please visit our <a href='https://sendsafely.zendesk.com/home' target="_blank">Online Help Center</a>.
+				<br><br>
+				
+				
+				
+
+				<div id="register-dialog" class="panel panel-default" style="min-width:340px; max-width:450px; display:none">
+					<div class="panel-heading">
+							<span style="font-weight:bold; font-size:16px;">Register a new Account</span>
+
+					</div>			
+
+                    <div class="panel-body">
+                    	<div>
+
+						 	<div id="regdialog1" >
+						 	
+						 		<div align="center">
+						 			<FORM ID="startRegForm">
+						 
+						 			
+						 			Let's start by verifying your email address:<br><br>
+						 			
+						 		
+						 				
+						 				<button style="color:#666666; min-width:305px; max-width:315px;" type="button" class="btn btn-default google-login">
+							
+						 				<IMG SRC="/images/ga-icon-64.png" height="20" width="20" style="margin-right:5px;">
+										Login using your Google Account
+										</button>
+										<div style="margin-top:5px; margin-bottom:10px">&nbsp;&nbsp;or&nbsp;&nbsp;</div>
+						 			
+						 			
+						 			<div id="g-recaptcha-3"></div>
+						 			
+						 			<div class="input-group" style="width:305px">
+						 				<INPUT class="form-control" TYPE="email" ID="regEmail" PLACEHOLDER="Email address" NAME="regEmail" AUTOCOMPLETE="off"/>
+						 				<div class="input-group-btn">
+						 					<button type="button" id="login-registration-button" class="btn btn-success">Get Started</button>
+						 				</div>
+						 				
+						 			</div>
+						 			
+						 			</FORM>
+
+						 		
+				 				
+						 		
+						 		</div>
+						 	
+						 	</div>
+						 	<div id="regdialog2" style="display:none;text-align:center;" align="center">
+						 		<br>
+						 		<b>We just sent you instructions on what to do next.</b>
+						 		<br><br>
+						 		An email with a registration link was just sent to you. If you can't find the email, check your junk mail folder.      
+						 	</div>
+
+				 		</div>
+				 		<br>
+				 		<a href="/auth/" style="margin-left:15px;color:#666666;font-weight:normal" class="btn btn-default">Back to Login</a>
+						<span class="login-registration-loading" style="padding-left:5px; visibility:hidden;"><IMG SRC="/images/loading.gif" height="16" width="16"></span>
+				 	</div>   		
+				
+				</div>
+				
+				<div id="password-reset-dialog" class="panel panel-default" style="height: 280; max-width:420px; min-width:340px;display:none">
+					<div class="panel-heading">
+							<span style="font-weight:bold; font-size:16px;">Reset your Password</span>
+					</div>	
+                    
+                    <div class="panel-body">
+                 		<div>
+				 		<div id="pwdialog1" align="center">
+				 			<div align="center">
+				 			Tell us your email address. <br class="hidden-xs">We'll send you instructions on what to do next.
+							<br><br>
+				 			<FORM ID="pwResetForm">
+				 				<div id="g-recaptcha-2" align="center"></div>
+				 				<br>
+				 				<div class="input-group" style="width:300px">
+				 				<INPUT placeholder="What is your email address?" class="form-control" TYPE="email" ID="pwEmailField" NAME="pwEmailField" AUTOCOMPLETE="off"/>
+				 				<span class="input-group-btn">
+				 					<button type="button" id="login-reset-button" class="btn btn-success" style="margin:0px 0px 0px 0px;">Continue</button>
+				 				</span>
+				 				</div>
+				 			
+				 			</FORM>
+				 			</div>
+				 		</div>
+				 		<div align="center" id="pwdialog2" style="display:none">
+				 		<br><b>A password reset email was just sent.</b>
+						<br>
+				 		<br><br>
+				 		<div style="font-size:14px">
+				 		Follow the instructions in the email to change your password.<br>If you can't find the email, check your junk mail folder.<br>
+				 		</div>
+				 		</div>
+				 		</div>
+				 		<br><br>
+				 		<a href="/auth/" style="margin-left:15px;color:#666666;font-weight:normal" class="btn btn-default">Back to Login</a><span id="login-reset-loading" style="padding-left:5px; visibility:hidden; overflow:auto;"><IMG SRC="/images/loading.gif" height="16" width="16"></span>
+		
+				 	</div>      
+              	</div>
+              		          
+              			
+              <div class="panel panel-default" style="max-width:420px; min-width:340px;" id="login-dialog">
+                    
+                     
+                    <div class="panel-body">
+                    
+						 			
+					<FORM ID="loginForm" NAME="loginForm" method="POST"> 
+
+						<div align="left">Email Address:<br></div>
+						<INPUT class="form-control" TYPE="email" ID="emailField" NAME="emailField" AUTOCOMPLETE="off" VALUE=""/><br>
+
+						<div align="left">Password:<br></div>
+						<INPUT class="form-control" TYPE="password" ID="login-passwordField" NAME="passwordField" AUTOCOMPLETE="off"/>
+						<br>
+						
+						<input type="hidden" name="loginCSRFToken" value="khlwoWfA4eXfOO5ihAhGOVbG420feuafum-2Cxp-Z6k"/>
+						
+						
+
+							<button class="btn btn-success" style="width:100%" id="login-loginFormSubmit"/><span class="sign-in-button-text">Sign in!</span><span style="display:none" class="sign-in-button-working"><i class="fa fa-spinner fa-spin"></i></span></button>
+							
+						
+						
+				 	</FORM>
+					
+				 
+
+							<div style="padding-top:5px; padding-bottom:5px" align="center">
+							or
+							</div>
+							<button style="color:#666666; width:100%" type="button" class="btn btn-default google-login">
+							
+							<IMG SRC="/images/ga-icon-64.png" height="20" width="20" style="margin-right:5px">
+							Login using your Google Account
+							</button>
+							
+					
+				 					
+					<div style="padding-top:30px;" class="row btn-group">
+  						<button style="max-width:165; min-width:150;" id="password-reset-button" type="button" class="btn btn-default">Reset Password</button>
+  						
+  						 <button style="max-width:165; min-width:150;" id="register-button" type="button" class="btn btn-default">Register Now</button>
+						
+						
+					</div>
+					 	
+					</div>
+				</div>		
+
+		
+			
+		</div>
+
+										
+							<div align="center">
+							<br>
+														
+														
+							
+							
+							
+							
+																
+							
+							
+
+								<br>
+							</div>
+									<br>
+				
+		
+
+	
+		
+		
+		
+        
+		
+		
+		
+		
+		
+		
+		
+		<style>
+			.grecaptcha-badge {display: none;}
+			ul.dropdown-menu {
+			    margin-top:10px;
+			    margin-right:-16px;
+			    cursor: pointer;
+			}
+		</style>
+
+		<div class="modal" id="mobile-loading-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div style="margin-top:200px; width:160px;" class="modal-dialog modal-vertical-centered">
+		<div class="modal-content">
+		<div class="modal-body" align="center" style="background:#000000">
+		<IMG style="margin-top:-5px; text-align:top; margin-right:7px" align="left" height="32" width="32" SRC="/images/mobile-loading.gif"><span style="color:#FFFFFF"><b>Loading...</b></span>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="modal" id="ios-promo-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div style="margin-top:0px; margin-bottom:0px; height:100%; width:100%;" class="modal-dialog">
+		<div style="border:0px; background-size: 100% auto;  background-color: #2D5575; height:100%;" class="modal-content">
+		<div align="center" class="modal-body">
+		<IMG style="width: auto; max-height:75%;" SRC="/images/iphone-promo-image.png">
+		<br>
+		<a href="https://itunes.apple.com/app/sendsafely/id969306054"><IMG src="/images/iphone-app-store-button.png" style="border:0; margin-top:20px; margin-bottom:15px;  width:150px; height:45px"></a>
+		<br>
+		<a href="/home/" style="color:#FFFFFF">Proceed to Mobile Site &raquo;</a>
+
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="modal fade" id="browser-compatibility-warning-modal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+						<i style="float:left; color:#f0ad4e; margin-top:2px; padding-right:10px;" class="fa fa-exclamation-circle fa-3x"></i>
+						<div class="error">Browser Compatibility Warning</div>
+						Your web browser does not support large file downloads using SendSafely.
+					</div>
+					<div class="modal-body">
+						<div class="default-compatibility-warning" style="">
+							We recommend that you use one of the following supported browsers instead&#58;
+							<br>
+							<ul style="margin-top:10px;">
+							<li><b>Chrome</b>&nbsp;<span style="font-size:12px">&#40;v67 and higher&#41;</span></li>
+							<li><b>Firefox</b>&nbsp;<span style="font-size:12px">&#40;v65 and higher&#41;</span></li>
+							<li><b>Edge</b>&nbsp;<span style="font-size:12px">&#40;v79 and higher&#41;</span></li>
+							<li><b>Safari</b>&nbsp;<span style="font-size:12px">&#40;v12.1 and higher&#41;</span></li>
+							</ul>
+
+							You may choose to continue, however large files may not successfully download.
+							<br><br>
+							<div align="right">
+							<a target="_" style="margin-bottom:15px; color:#333333; font-weight:normal; margin-left:10px; margin-right:10px;" href="https://sendsafely.zendesk.com/hc/en-us/articles/360052718631" class="btn btn-default">Learn more</a>
+							<button style="margin-bottom:15px; margin-left:10px; margin-right:10px;" id="ie-warn-ok" data-dismiss="modal" class="btn btn-default">Continue</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="appletErrorModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+		<i style="color:#B22222; float:left; margin-top:3px; margin-left:3px; padding-right:10px" class="fa fa-exclamation-triangle fa-3x"></i>
+		<h4 class="modal-title">Oops&#33;</h4>
+			An error has occurred while SendSafely was running in your browser.
+		</div>
+		<div class="modal-body">
+		Error Message&#58;  <span id="exceptionMessage"></span>
+		<br><br>
+		If the problem persists and you cannot fix it, please contact support&#64;sendsafely.com.
+		<br><br>
+		<table align="center" border="0">
+		<tr><td style="width:20px"></td><td id="all-detailedInfoButtonRegion" style="display:none" align="center" style="width:275px">
+		<span><a id="all-detailedInfoButton" class="btn btn-default"><span>Show Detailed Error Information</span></a></span>
+		</td></tr>
+		</table>
+		<div class="small" align="center">
+		<br><a href="/">Click here</a> to return to the main landing page.
+		</div>
+
+		<div id="stackTraceContainer" style="display:none">
+		<br>
+		<div align="center">
+		<textarea style="font-size:8pt; min-height: 100px; min-width:550px; max-width:550px" id="stackTrace">
+		</textarea>
+		</div>
+		</div>
+		<FORM ID="ajaxForm"></FORM>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="modal fade" id="enterprise-demo-cta-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content" style="margin:auto; max-width:450px">
+		<div class="modal-header" style="border-top-left-radius: 6px; border-top-right-radius: 6px; background: #f5f5f5;">
+
+		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+		<div id="enterprise-demo-modal-title" style="font-size:20px; font-weight:bold">Request an Enterprise Demo</div>
+		<div id="enterprise-demo-modal-description" style="font-size:14px;">Tell us a little more about yourself...</div>
+
+		</div>
+		<div class="modal-body">
+
+		<div style="max-width:450px">
+
+		<div id="landing-form-inputs">
+		<form name="landing-form" id="landing-form">
+		<input name="test" value="test" type="hidden">
+		<input id="landing-source-teaser" name="landing-source-teaser" value="" type="hidden">
+		<input id="landing-form-redirect-url" name="landing-form-redirect-url" value="" type="hidden">
+		<span style="font-size:13px; font-weight:bold">First Name<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-first-name" id="landing-first-name" type="text" maxlength='255'  > 
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-first-name-mandatory">Please complete this mandatory field</div>
+		<span style="font-size:13px; font-weight:bold">Last Name<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-last-name" id="landing-last-name" type="text" maxlength='255' >
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-last-name-mandatory">Please complete this mandatory field</div>
+		<span style="font-size:13px; font-weight:bold">Work Email<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-email" id="landing-email" type="text" maxlength='255' >
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-email-mandatory">Please complete this mandatory field</div>
+		<span style="font-size:13px; font-weight:bold">Company Name<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-company-name" id="landing-company-name" type="text" maxlength='255'>
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-company-name-mandatory">Please complete this mandatory field</div>
+		<span style="font-size:13px; font-weight:bold">Estimated Number of SendSafely Users<span style="color:red">*</span></span>
+		<select class="landing-mandatory-text form-control" name="landing-employee-count" id="landing-employee-count">
+		<option value="--- Select an Option ---">--- Select an Option ---</option>
+		<option value="1-5">1-5</option>
+		<option value="5-25">5-25</option>
+		<option value="25-50">25-50</option>
+		<option value="50-100">50-100</option>
+		<option value="100-500">100-500</option>
+		<option value="500-1000">500-1000</option>
+		<option value="1000+">1000+</option>
+		</select>
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-employee-count-mandatory">Please select an option from the dropdown</div>
+
+		<span style="font-size:13px; font-weight:bold">Phone Number<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-phone-number" id="landing-phone-number" type="text" maxlength='255'>
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-phone-number-mandatory">Please complete this mandatory field></div>
+
+		<span style="font-size:13px; font-weight:bold">Job Title<span style="color:red">*</span></span>
+		<input class="landing-mandatory-text form-control" name="landing-job-title" id="landing-job-title" type="text" maxlength='255'>
+		<div style="visibility:hidden; margin-bottom:5px; font-size:10px" id="landing-job-title-mandatory">Please complete this mandatory field></div>
+
+		<input type="hidden" name="landing-url" value="&#47;auth&#47;?">
+		<br>
+
+		<div id='recaptcha' align="center"></div>
+		<div align="center">
+		<a style="margin-left:26px" id="landing-form-submit" class="btn btn-success" data-google-conversion-label="">Get Started!</a>
+		<img id="landing-form-working" style="visibility:hidden; margin-left:10px;" height="16" width="16" src="/images/loading.gif"></div>
+		<br>
+		</form>
+		</div>
+		<div style="display:none" id="landing-form-completed">
+		<br>
+		<div align="center">
+		<b>Thank you. A member of our team will reach<br>out to you shortly with more information.</b>
+		</div>
+		<br><br>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		</div> <!--//content-container -->
+		<div id="appletContainer"></div>
+
+		<div class="modal fade" id="personal-url-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+		<i style="float:left; margin-top:0px; padding-right:10px" class="fa fa-cloud-download fa-3x"></i>
+		<h4 class="modal-title">Your Personal SendSafely URL</h4>
+           Use your personal SendSafely URL to have people send you items.
+		</div>
+		<div class="modal-body">
+
+		<div style="display:none" id="personal-url-modal-ineligible" align="center">
+
+		<strong>The SendSafely Personal URL feature is not available for free accounts.
+           <br class="hidden-xs">Would you like to upgrade now to gain access to this feature?
+		</strong>
+		<br>
+		<br>
+
+		<button style="margin-left:10px; min-width:120px" type="button" data-dismiss="modal" class="btn btn-default">
+		<span>No Thanks</span>
+		</button>
+		&nbsp;&nbsp;&nbsp;
+
+		<a style="margin-right:5px; min-width:120px; color:#FFFFFF;" class="btn btn-success" href="/secure/payments/?tok=null">Upgrade Now</a>
+
+		<br>
+		</div>
+
+		<div id="personal-url-modal-enabled" align="center">
+           
+           Your personal URL is <strong><a href="https://">https://</a></strong>
+		<div style="padding-top:10px">SendSafely will automatically validate the sender's email before allowing them to send you items.</div>
+
+		<br>
+		<br>
+
+		<button style="min-width:50px" type="button" data-dismiss="modal" class="btn btn-success">
+		<span>OK</span>
+		</button>
+
+		</div>
+
+		<div style="display:none" id="personal-url-modal-disabled" align="center">
+		<strong>Your personal SendSafely URL is disabled.<br>Would you like to enable this feature now?
+		</strong>
+
+		<div style="padding-top:15px">SendSafely will automatically validate the sender's email before allowing them to send you items.<br>
+
+
+		</div>
+
+		<br>
+
+		<button style="margin-left:10px; min-width:100px" type="button" data-dismiss="modal" class="btn btn-default">
+		<span>No Thanks</span>
+		</button>
+		&nbsp;&nbsp;&nbsp;
+		<button id="autoinvite-enable-now" style="margin-right:5px; min-width:100px" type="button" class="btn btn-success">
+		<span>Enable Now</span>
+		</button>
+		<img style="visibility:hidden" id="autoinvite-enable-now-loading" height="16" width="16" src="/images/loading.gif">
+
+
+		</div>
+
+
+		</div>
+		</div>
+		</div>
+		</div>
+
+
+		<div class="modal fade" id="analytics-modal" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+		<h4 class="modal-title"></h4>
+		</div>
+		<div class="modal-body">
+		<iframe src="https&#58;&#47;&#47;analytics-frame.sendsafely.com&#47;www.sendsafely.com&#47;unauthenticated-user&#47;auth&#47;" sandbox="allow-same-origin allow-scripts" id="analytics-buffer-frame"></iframe>
+		</div>
+		</div>
+		</div>
+		</div>
+
+		<!-- Auth Javascript -->
+		
+			<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/errorHandler.js?nocache=1998077310"></script>
+		
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/assets/plugins/bootstrap/js/bootstrap.min.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-switch.min.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-notify.min.js?nocache=1998077310"></script>
+
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/typeahead.jquery.min.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bloodhound.min.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.qtip.min.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/bootstrap-datepicker.min.js?nocache=1998077310"></script>
+		
+
+		
+
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/jquery.autosize.min.js?nocache=1998077310"></script>
+		<script type="text/javascript" src="https&#58;&#47;&#47;static-www.sendsafely.com/assets/plugins/detectmobilebrowser.js?nocache=1998077310" crossorigin="anonymous"></script>
+		
+			<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/anonymousFunctions.min.js?nocache=1998077310" crossorigin="anonymous"></script>
+		
+		
+		<script id="recaptcha-script" src="https://www.recaptcha.net/recaptcha/api.js" async defer data-recaptcha-site-key="6LcAAQ4UAAAAAO09jqmoNN94Rxo66nMiDbhS7j4x"></script>
+
+		
+		
+		
+		<div class="app-footer">
+		<div id="footer-ui-switch-container" style="float:left;padding-left:25px;margin-top:40px;">
+               
+
+		
+			<div class="footer-ui-switch" style="display:none; padding-top:10px;margin:0 auto;">
+			<div style="display:table-cell; vertical-align:middle;">
+			
+			
+			
+			</div>
+			</div>
+		
+
+		</div>
+
+		<div style="float:right;padding-top:30px;padding-right:30px;margin:0 auto;">
+		
+		</div>
+		<div id="flash-test-container" style="float:left"></div>
+		</div>
+
+		</div><!--//wrapper (or app-wrapper)-->
+
+		<!--[if lt IE 9]>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/html5shiv.js?nocache=1998077310"></script>
+		<script src="https&#58;&#47;&#47;static-www.sendsafely.com/js/v3/respond.min.js?nocache=1998077310"></script>
+		<![endif]-->
+
+		</body>
+		</html>
+
+https://www.sendsafely.com/auth/#signup
+PASS_STATUS = 200
