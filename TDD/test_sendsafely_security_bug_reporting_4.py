@@ -31,9 +31,9 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 3 Verify field "Enter your email address" is here. Enter the email randomized to "Enter your email address" empty field.
     entr_yr_eml_addrss_fld = wait.until(EC.visibility_of_element_located(ENTR_YR_EML_ADDRSS_FLD))
     if 'Enter your email address' in entr_yr_eml_addrss_fld.get_attribute('placeholder'):
-        print(f'\nEnter your email address is visible on screen')
+        print(f'\n"Enter your email address" is visible on screen')
     else:
-        print(f'\nEnter your email address is not visible on screen')
+        print(f'\n"Enter your email address" is not visible on screen')
 
     def generate_random_email():
         domain = random.choice(['gmail.com', 'yahoo.com', 'hotmail.com'])
@@ -53,9 +53,9 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 4 Verify field "What category of security bug is this?" is here. Enter the "test bug" to "What category of security bug is this?" empty field.
     wht_ctgry_f_scrt_bg_fld = wait.until(EC.visibility_of_element_located(WHT_CTGRY_F_SCRT_BG_FLD))
     if 'What category of security bug is this?' in wht_ctgry_f_scrt_bg_fld.get_attribute('placeholder'):
-        print(f'\nWhat category of security bug is this? is visible on screen')
+        print(f'\n"What category of security bug is this?" is visible on screen')
     else:
-        print(f'\nWhat category of security bug is this? is not visible on screen')
+        print(f'\n"W"hat category of security bug is this?" is not visible on screen')
 
     empty_test_bug_field = driver.find_element(*WHT_CTGRY_F_SCRT_BG_FLD)
     empty_test_bug_field.clear()
@@ -64,9 +64,9 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 5 Verify field "Provide the URL that is affected" is here
     url_affctd_fld = wait.until(EC.visibility_of_element_located(URL_AFFCTD_FLD))
     if 'Provide the URL that is affected' in url_affctd_fld.get_attribute('placeholder'):
-        print(f'\nProvide the URL that is affected is visible on screen')
+        print(f'\n"Provide the URL that is affected" is visible on screen')
     else:
-        print(f'\nProvide the URL that is affected is not visible on screen')
+        print(f'\n"Provide the URL that is affected" is not visible on screen')
 
     empty_url_field = driver.find_element(*URL_AFFCTD_FLD)
     empty_url_field.clear()
@@ -75,9 +75,9 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 6 Verify field "Provide a descriptive bug caption" is here
     dscrptv_bg_cptn_fld = wait.until(EC.visibility_of_element_located(DSCRPTV_BG_CPTN_FLD))
     if 'Provide a descriptive bug caption' in dscrptv_bg_cptn_fld.get_attribute('placeholder'):
-        print(f'\nProvide a descriptive bug caption is visible on screen')
+        print(f'\n"Provide a descriptive bug caption" is visible on screen')
     else:
-        print(f'\nProvide a descriptive bug caption is not visible on screen')
+        print(f'\n"Provide a descriptive bug caption" is not visible on screen')
 
     empty_dscrptv_field = driver.find_element(*DSCRPTV_BG_CPTN_FLD)
     empty_dscrptv_field.clear()
@@ -86,9 +86,9 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 7 Verify field "Describe how we can replicate this issue" is here
     dscrptv_hw_cn_rplc_fld = wait.until(EC.visibility_of_element_located(DSCRPTV_HW_CN_RPLC_FLD))
     if 'Describe how we can replicate this issue' in dscrptv_hw_cn_rplc_fld.get_attribute('placeholder'):
-        print(f'\nDescribe how we can replicate this issue is visible on screen')
+        print(f'\n"Describe how we can replicate this issue" is visible on screen')
     else:
-        print(f'\nDescribe how we can replicate this issue is not visible on screen')
+        print(f'\n"Describe how we can replicate this issue" is not visible on screen')
 
     empty_rplc_field = driver.find_element(*DSCRPTV_HW_CN_RPLC_FLD)
     empty_rplc_field.clear()
@@ -97,38 +97,33 @@ def test_sendsafely_security_bug_reporting_form_4():
     # 8 Verify field "Put any additional information that you think we might find useful here" is here
     addtnl_inf_mght_b_usf_fld = wait.until(EC.visibility_of_element_located(ADDTNL_INF_MGHT_B_USL_FLD))
     if 'Put any additional information that you think we might find useful here' in addtnl_inf_mght_b_usf_fld.get_attribute('placeholder'):
-        print(f'\nPut any additional information that you think we might find useful here is visible on screen')
+        print(f'\n"Put any additional information that you think we might find useful here" is visible on screen')
     else:
-        print(f'\nPut any additional information that you think we might find useful here is not visible on screen')
+        print(f'\n"Put any additional information that you think we might find useful here" is not visible on screen')
 
     empty_mght_field = driver.find_element(*ADDTNL_INF_MGHT_B_USL_FLD)
     empty_mght_field.clear()
     empty_mght_field.send_keys("test bug mght")
 
     # 9 Scroll down and click button "Drag files here or click to add file"
-    iframes = driver.find_elements(By.TAG_NAME, "iframe")
-    print(f'\nLen of iframes: {len(iframes)}\n{iframes}')
-    # iframe = driver.find_elements(By.TAG_NAME, 'iframe')[0]
-    # driver.switch_to.frame(iframe)
-    # driver.implicitly_wait(30)
-    # driver.find_element(*DRG_FLSR_CLCK_ADD_FL_BTN).click()
-    # driver.switch_to.default_content()
-
-    # Iterate through the iframes
-    for iframe in iframes:
-        try:
-            driver.switch_to.frame(iframe)
-            # Check if the element you need is present in this iframe
-            if driver.find_element(By.ID, "sendsafely-iframe"):
-                # Interact with the element
-                driver.find_element(By.ID, "sendsafely-iframe").click()
-                break  # Exit the loop if the element is found
-        except:
-            # If switching to the iframe or finding the element fails, continue to the next iframe
-            continue
-
-    # Switch back to the default content
+    iframes = driver.find_elements(By.TAG_NAME, 'iframe')
+    print(f'\ncurrent url: {driver.current_url}\nlen of iframes: {len(iframes)}\ntype of iframe: {type(iframes)}')
+    iframe = iframes[0]
+    driver.switch_to.frame(iframe)
+    sleep(8)
+    print(f'current url: {driver.current_url}\ntype of iframe: {type(iframe)}')
+    # Click on button "Drag files here or click to add file"
+    actions = ActionChains(driver)
+    drg_fls_clck_add_fl_btn = driver.find_element(*DRG_FLS_CLCK_ADD_FL_BTN)
+    # sbmt_btn = driver.find_element(*SBMT_BTN)
+    # File path specified to send
+    actions.move_to_element(drg_fls_clck_add_fl_btn).click() # send_keys("E:\Gurov_SSD_256\IT\Testing\Automation_08_09_2019\sendsafely_dt_30_aug_2023\TDD\test_send_bug_report.txt")
+    # actions.move_to_element(sbmt_btn).click()
+    actions.perform()
     driver.switch_to.default_content()
+
+
+
 
     sleep(4)
     driver.quit()
