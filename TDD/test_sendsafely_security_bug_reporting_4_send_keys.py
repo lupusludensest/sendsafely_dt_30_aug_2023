@@ -8,6 +8,7 @@ import random
 import string
 from pynput.keyboard import Key, Controller
 import pyautogui
+from selenium.webdriver.common.keys import Keys
 
 def test_sendsafely_security_bug_reporting_form_4():
     driver = webdriver.Chrome()
@@ -111,28 +112,19 @@ def test_sendsafely_security_bug_reporting_form_4():
     print(f'\ncurrent url: {driver.current_url}\nlen of iframes: {len(iframes)}\ntype of iframe: {type(iframes)}')
     iframe = iframes[0]
     driver.switch_to.frame(iframe)
-    sleep(8)
+    sleep(4)
     print(f'current url: {driver.current_url}\ntype of iframe: {type(iframe)}')
-    # Click on button "Drag files here or click to add file"
+    # Click on or send keys to button "Drag files here or click to add file"
     actions = ActionChains(driver)
     drg_fls_clck_add_fl_btn = driver.find_element(*DRG_FLS_CLCK_ADD_FL_BTN)
-    # sbmt_btn = driver.find_element(*SBMT_BTN)
-    # File path specified to send
-    actions.move_to_element(drg_fls_clck_add_fl_btn).click()
-    sleep(3)
-    # actions.move_to_element(sbmt_btn).click()
+    # File path specified to send N.B. Whenever I sent a path it is always landed to "Additional Information" field
+    actions.move_to_element(drg_fls_clck_add_fl_btn).send_keys(r"C:\Users\rapid\test_send_bug_report.jpg")
+    sleep(2)
     actions.perform()
-    # Use pyautogui to navigate the file dialog and select a file
-    keyboard = Controller()
-    full_path_to_your_file_here = "E:/Gurov_SSD_256/IT/Testing/Automation_08_09_2019/sendsafely_dt_30_aug_2023/TDD/test_send_bug_report.jpg"
-    keyboard.type(full_path_to_your_file_here)
-    keyboard.press(Key.enter)
-    keyboard.release(Key.enter)
 
-    # pyautogui.write(full_path_to_your_file_here)
-    # pyautogui.press("enter")
     driver.switch_to.default_content()
 
+    driver.find_element(*SBMT_BTN).click()
 
     sleep(4)
     driver.quit()

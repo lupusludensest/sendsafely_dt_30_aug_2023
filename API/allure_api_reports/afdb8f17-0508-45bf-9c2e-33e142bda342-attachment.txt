@@ -1,6 +1,0 @@
-
-PASS_STATUS = 200
-
-Found: "Web Application Security"
-
-url of the response: https://www.sendsafely.com/security/

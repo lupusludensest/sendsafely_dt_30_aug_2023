@@ -1,5 +1,5 @@
 # Created by rapid at 9/1/2023
-Feature: # test_sendsafely_pytested_sign_up_right_3
+Feature: # sendsafely_pytested_sign_up_right_3
 
   Scenario: # Sign up by randomized email. Verify "https://www.sendsafely.com/auth/#signup" is open.
     Given Loginpage
