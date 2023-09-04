@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import random
 import string
-import pyautogui
 from pynput.keyboard import Key, Controller
+import pyautogui
 
 def test_sendsafely_security_bug_reporting_form_4():
     driver = webdriver.Chrome()
@@ -124,12 +124,11 @@ def test_sendsafely_security_bug_reporting_form_4():
     actions.perform()
     # Use pyautogui to navigate the file dialog and select a file
     keyboard = Controller()
-    full_path_to_your_file_here = "E:\Gurov_SSD_256\IT\Testing\Automation_08_09_2019\sendsafely_dt_30_aug_2023\TDD\\test_send_bug_report.txt"
-    # full_path_to_your_file_here = "C:\\Users\\rapid\\test_send_bug_report.txt"
+    full_path_to_your_file_here = "E:/Gurov_SSD_256/IT/Testing/Automation_08_09_2019/sendsafely_dt_30_aug_2023/TDD/test_send_bug_report.jpg"
     keyboard.type(full_path_to_your_file_here)
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
-    # full_path_to_your_file_here = "C:\\Users\\rapid\\test_send_bug_report.txt"
+
     # pyautogui.write(full_path_to_your_file_here)
     # pyautogui.press("enter")
     driver.switch_to.default_content()
