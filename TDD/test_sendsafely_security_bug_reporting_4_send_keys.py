@@ -16,6 +16,7 @@ def test_sendsafely_security_bug_reporting_form_4():
     driver.implicitly_wait(5)
 
     driver.get("https://www.sendsafely.com")
+    # driver.delete_all_cookies()
     wait = WebDriverWait(driver, 15)
 
     # Click button "Accept" cookies
@@ -127,5 +128,6 @@ def test_sendsafely_security_bug_reporting_form_4():
     driver.find_element(*SBMT_BTN).click()
 
     sleep(4)
+    # driver.delete_all_cookies()
     driver.quit()
 

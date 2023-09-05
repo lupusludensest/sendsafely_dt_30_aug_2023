@@ -7,6 +7,7 @@ class Page:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 15)
         self.base_url = 'https://www.sendsafely.com'
+        driver.delete_all_cookies()
 
     def click(self, *locator):
         """

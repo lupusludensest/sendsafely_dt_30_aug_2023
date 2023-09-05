@@ -13,6 +13,7 @@ def test_sendsafely_pytested_sign_up_right_3():
     driver.implicitly_wait(5)
 
     driver.get("https://www.sendsafely.com")
+    driver.delete_all_cookies()
     wait = WebDriverWait(driver, 15)
 
     # Click button "Accept" cookies
@@ -49,4 +50,6 @@ def test_sendsafely_pytested_sign_up_right_3():
         print(f'\nhttps://www.sendsafely.com/auth/#signup is not here')
     driver.back()
 
+    sleep(4)
+    driver.delete_all_cookies()
     driver.quit()

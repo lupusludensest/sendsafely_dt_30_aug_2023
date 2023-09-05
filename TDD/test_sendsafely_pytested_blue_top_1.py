@@ -2,6 +2,7 @@ from all_locators_tdd import *
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from time import sleep
 
 def test_sendsafely_pytested_blue_top_1():
     driver = webdriver.Chrome()
@@ -9,6 +10,7 @@ def test_sendsafely_pytested_blue_top_1():
     driver.implicitly_wait(5)
 
     driver.get("https://www.sendsafely.com")
+    driver.delete_all_cookies()
     wait = WebDriverWait(driver, 15)
 
     # Click button "Accept" cookies
@@ -88,6 +90,8 @@ def test_sendsafely_pytested_blue_top_1():
     actual_text = (lrn_mr_btn).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
+    sleep(4)
+    driver.delete_all_cookies()
     driver.quit()
 
 

@@ -2,6 +2,7 @@ from all_locators_tdd import *
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
+from time import sleep
 
 def test_sendsafely_pytested_bttns_clckd_2():
     driver = webdriver.Chrome()
@@ -9,6 +10,7 @@ def test_sendsafely_pytested_bttns_clckd_2():
     driver.implicitly_wait(5)
 
     driver.get("https://www.sendsafely.com")
+    driver.delete_all_cookies()
     wait = WebDriverWait(driver, 15)
 
     # Click button "Accept" cookies
@@ -103,4 +105,6 @@ def test_sendsafely_pytested_bttns_clckd_2():
         print(f'\nhttps://www.sendsafely.com/ is not here')
     driver.back()
 
+    sleep(4)
+    driver.delete_all_cookies()
     driver.quit()
