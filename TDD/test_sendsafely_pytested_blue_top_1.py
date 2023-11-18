@@ -18,10 +18,7 @@ def test_sendsafely_pytested_blue_top_1():
 
     # 1 Picture SENDSAFELY '/img/ss_logo_60_343.png' is present
     snd_sfl_pctr = wait.until(EC.visibility_of_element_located(SND_SFL_PCTR)) # driver.find_element(*SND_SFL_PSTR)
-    if '/img/ss_logo_60_343.png' in snd_sfl_pctr.get_attribute('src'):
-        print(f'\nImage SENDSAFELY is visible on screen')
-    else:
-        print(f'\nImage SENDSAFELY is not visible on screen')
+    assert '/img/ss_logo_60_343.png' in snd_sfl_pctr.get_attribute('src'), f"Expected '/img/ss_logo_60_343.png', but got {snd_sfl_pctr.get_attribute('src')}"
 
     # 2 Picture Globe as a Schema '/img/globe_lines.png' is present
     glb_s_schm_pctr = wait.until(EC.visibility_of_element_located(GLB_S_SCHM_PCTR))
