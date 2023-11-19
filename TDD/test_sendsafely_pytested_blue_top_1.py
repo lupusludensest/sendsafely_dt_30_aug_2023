@@ -22,16 +22,11 @@ def test_sendsafely_pytested_blue_top_1():
 
     # 2 Picture Globe as a Schema '/img/globe_lines.png' is present
     glb_s_schm_pctr = wait.until(EC.visibility_of_element_located(GLB_S_SCHM_PCTR))
-    if '/img/globe_lines.png' in glb_s_schm_pctr.get_attribute('src'):
-        print(f'\nImage Globe as a Schema is visible on screen')
-    else:
-        print(f'\nImage Globe as a Schema is not visible on screen')
+    assert '/img/globe_lines.png' in glb_s_schm_pctr.get_attribute('src'), f"Expected '/img/globe_lines.png', but got {glb_s_schm_pctr.get_attribute('src')}"
 
     # 3 Text "The end-to-end encryption platform for modern business" is here
     e2e_txt_encrptn_txt = driver.find_element(*E2E_TXT_ECRPTN_TXT)
-    expected_text = "The end-to-end encryption platform for modern business"
-    actual_text = (e2e_txt_encrptn_txt).text
-    assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+    assert 'The end-to-end encryption platform for modern business' in (e2e_txt_encrptn_txt).text, f"The end-to-end encryption platform for modern business', but got {glb_s_schm_pctr.get_attribute('src')}"
 
     # 4 "Features" button is here
     ftrs_btn = driver.find_element(*FTRS_BTN)
