@@ -1,3 +1,6 @@
+# Consider using more descriptive variable names instead of abbreviations or removing vowels.
+# This can improve the readability and maintainability of the code.
+
 from behave import *
 
 
