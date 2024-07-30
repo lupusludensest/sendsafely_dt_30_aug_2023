@@ -7,7 +7,7 @@ from time import sleep
 def test_sendsafely_pytested_blue_top_1():
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.implicitly_wait(5)
+    driver.implicitly_wait(5)     
 
     driver.get("https://www.sendsafely.com")
     driver.delete_all_cookies()
