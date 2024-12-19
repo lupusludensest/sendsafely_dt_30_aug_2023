@@ -13,6 +13,6 @@ def test_sendsafely_api_post_email_2():
     else:
         print(f'\nFAIL_STATUS ="{r.status_code}"')
 
-    print(f'\nurl of the response: {r.url}')  # url of the response
+    print(f'\nUrl of the response: {r.url}')  # url of the response
 
 
