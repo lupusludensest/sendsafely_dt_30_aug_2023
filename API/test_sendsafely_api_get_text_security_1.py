@@ -16,7 +16,7 @@ def test_sendsafely_api_get_text_security_1():
     else:
         print(f'\nNot found: "{wrd}"')
 
-    print(f'\nUrl of the response: {r.url}')  # url of the response
+    print(f'\nurl of the response: {r.url}')  # url of the response
 
 
 
