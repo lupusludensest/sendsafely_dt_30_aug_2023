@@ -132,7 +132,7 @@ def test_sendsafely_security_bug_reporting_form_4():
     keyboard.release(Key.enter)
 
     pyautogui.write(full_path_to_your_file_here)
-    pyautogui.press("enter_111")
+    pyautogui.press("enter")
 
     driver.switch_to.default_content()
 
