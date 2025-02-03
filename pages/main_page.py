@@ -139,27 +139,27 @@ class MainPage(Page):
             print(f'\nwrong output: {len(fv_elmnts_drpdwn_mn_hr)}')
 
         scr_eml = self.driver.find_element(*SCR_EML_TXT)
-        expected_text = "Secure Email"
+        expected_text = "Secure File Exchange"
         actual_text = (scr_eml).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
         hlp_dsk_intgrtn = self.driver.find_element(*HLP_DSK_INTGRTN_TXT)
-        expected_text = "Help Desk Integrations"
+        expected_text = "SendSafely Dropzone"
         actual_text = (hlp_dsk_intgrtn).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
         scr_fl_exchng = self.driver.find_element(*SCR_FL_EXCHNG_TXT)
-        expected_text = "Secure File Exchange"
+        expected_text = "Customer Service Integrations"
         actual_text = (scr_fl_exchng).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
         snd_sfly_drp_zn = self.driver.find_element(*SND_SFLY_DRP_ZN_TXT)
-        expected_text = "SendSafely Dropzone"
+        expected_text = "Workspaces"
         actual_text = (snd_sfly_drp_zn).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
         dvlpr_api = self.driver.find_element(*DVLPR_API_TXT)
-        expected_text = "Developer API"
+        expected_text = "Secure Email"
         actual_text = (dvlpr_api).text
         assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
     # End of the above code

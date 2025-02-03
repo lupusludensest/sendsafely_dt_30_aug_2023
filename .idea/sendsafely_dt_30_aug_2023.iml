@@ -9,12 +9,13 @@
       <excludeFolder url="file://$MODULE_DIR$/TDD/allure_tdd_reports" />
       <excludeFolder url="file://$MODULE_DIR$/allure_bdd_reports" />
       <excludeFolder url="file://$MODULE_DIR$/features/steps/.pytest_cache/v" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv1" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv/Lib" />
       <excludeFolder url="file://$MODULE_DIR$/venv/Scripts" />
-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (sendsafely_dt_30_aug_2023)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (sendsafely_dt_30_aug_2023)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyBDDFrameworkConfig">
