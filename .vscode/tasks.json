@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "allure_bdd_run",
+            "type": "shell",
+            "command": "${workspaceFolder}/allure_bdd_run.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "allure_bdd_report",
+            "type": "shell",
+            "command": "${workspaceFolder}/allure_bdd_report.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
