@@ -1,7 +1,5 @@
-# pip install locust
-# http://localhost:8089/
-# locust -f test_sendsafely_stress_1.py --host http://localhost:3000 --users 5000 --spawn-rate 20
-# locust -f test_sendsafely_stress_1.py
+# Basic load testing script for web applications using Locust
+# For setup and usage instructions, see README.md in this directory
 
 from locust import HttpUser, task, between
 
@@ -12,7 +10,8 @@ class MyUser(HttpUser):
     @task
     def my_task(self):
         # Define the HTTP GET request you want to simulate
-        response = self.client.get("https://www.sendsafely.com")
+        # The base URL will be taken from the --host parameter
+        response = self.client.get("/")
 
         # You can check the response status code or content if needed
         if response.status_code == 200:
