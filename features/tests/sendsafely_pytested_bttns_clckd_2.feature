@@ -1,7 +1,7 @@
 # Created by rapid at 8/30/2023
 Feature: # sendsafely_pytested_bttns_clckd_2
 
-  Scenario: # Clicking t buttons. All elements are present and as expected
+  Scenario: # Clicking buttons. All elements are present and as expected
     Given Loginpage
     Then Click button "Accept" cookies
     Then 1 Click "Features" button. Verify "https://www.sendsafely.com/features/" is open

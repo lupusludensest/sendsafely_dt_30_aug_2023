@@ -30,33 +30,32 @@ def test_sendsafely_pytested_bttns_clckd_2():
     actions = ActionChains(driver)
     actions.move_to_element(sltns_btn).perform()
     fv_elmnts_drpdwn_mn_hr = driver.find_elements(*FV_ELMNTS_DRPDWN_MNU_HR)
-    if len(fv_elmnts_drpdwn_mn_hr) == 5:
-        print(f'\n5 elements are here')
+    if len(fv_elmnts_drpdwn_mn_hr) == 6:
+        print(f'\n6 elements are here')
     else:
         print(f'\nwrong output: {len(fv_elmnts_drpdwn_mn_hr)}')
 
     scr_eml = driver.find_element(*SCR_EML_TXT)
-    expected_text = "Secure Email"
+    expected_text = "Secure File Exchange"
     actual_text = (scr_eml).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
     hlp_dsk_intgrtn = driver.find_element(*HLP_DSK_INTGRTN_TXT)
-    expected_text = "Help Desk Integrations"
+    expected_text = "SendSafely Dropzone"
     actual_text = (hlp_dsk_intgrtn).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
     scr_fl_exchng = driver.find_element(*SCR_FL_EXCHNG_TXT)
-    expected_text = "Secure File Exchange"
+    expected_text = "Customer Service Integrations"
     actual_text = (scr_fl_exchng).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
     snd_sfly_drp_zn = driver.find_element(*SND_SFLY_DRP_ZN_TXT)
-    expected_text = "SendSafely Dropzone"
+    expected_text = "Workspaces"
     actual_text = (snd_sfly_drp_zn).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
-
     dvlpr_api = driver.find_element(*DVLPR_API_TXT)
-    expected_text = "Developer API"
+    expected_text = "Secure Email"
     actual_text = (dvlpr_api).text
     assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
 
