@@ -10,7 +10,7 @@ SLTNS_BTN = (By.XPATH, "//a[@class='dropdown-toggle nav-link']") # (By.XPATH, "/
 PRCN_BTN = (By.XPATH, "//a[@href='/pricing/']") # (By.XPATH, "//a[normalize-space()='Pricing']")
 HW_T_WRKS_BTN = (By.XPATH, "//a[@href='/howitworks/']") # (By.XPATH, "//a[@class='nobr nav-link']")
 BLG_BTN = (By.XPATH, "//a[@href='https://blog.sendsafely.com']") # (By.XPATH, "//a[normalize-space()='Blog']")
-LGN_BTN = (By.XPATH, "//a[@href='/auth/']")
+LGN_BTN = (By.XPATH, "//a[@class='btn_get btn_hover']")
 RQST_DM_BTN = (By.XPATH, "//nobr[normalize-space()='Request Demo']")
 SGN_P_BTN = (By.XPATH, "//section[@class='agency_banner_area_two']//a[1]")
 LRN_MR_BTN = (By.XPATH, "//a[@id='intro-button']//div[@class='btn btn-lg btn-orange'][normalize-space()='Learn More']")
