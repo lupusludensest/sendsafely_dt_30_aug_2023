@@ -1,0 +1,8 @@
+/allure_bdd_reports
+/API/allure_api_reports
+/TDD/allure_tdd_reports
+/venv
+/allure-report
+/allure-report-tdd
+/allure-report-api
+/screenshots
