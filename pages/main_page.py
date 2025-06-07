@@ -6,6 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from time import sleep
 import random
 import string
+import os
 
 class MainPage(Page):
 
@@ -84,10 +85,23 @@ class MainPage(Page):
 
     # 9 "Log In" button is here
     def lgn_btn(self, lgn_btn_txt):
-        lgn_btn = self.driver.find_element(*LGN_BTN)
-        expected_text = lgn_btn_txt
-        actual_text = (lgn_btn).text
-        assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+        try:
+            # Temporary sleep for debugging
+            sleep(5)
+            wait = WebDriverWait(self.driver, 20)
+            # Ensure the element is visible
+            visible_lgn_btn = wait.until(EC.visibility_of_element_located(LGN_BTN))
+            # Then, ensure it's clickable
+            lgn_btn_element = wait.until(EC.element_to_be_clickable(LGN_BTN))
+            expected_text = lgn_btn_txt
+            actual_text = (lgn_btn_element).text
+            assert expected_text == actual_text, f'Expected {expected_text}, but got {actual_text}'
+        except Exception as e:
+            screenshot_path = os.path.join(os.getcwd(), 'screenshots', 'login_button_failure_lgn_btn.png')
+            os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
+            self.driver.save_screenshot(screenshot_path)
+            print(f"Screenshot saved to: {screenshot_path}")
+            raise e # Re-raise the exception after screenshot
     # End of the above code
 
     # 10 "Request Demo" button is here
@@ -199,13 +213,26 @@ class MainPage(Page):
 
     # 6 Click "Log In" button. Verify "https://www.sendsafely.com/auth/" is open
     def lgn_btn_clck(self):
-        lgn_btn_clck = self.driver.find_element(*LGN_BTN)
-        lgn_btn_clck.click()
-        if self.driver.current_url == 'https://www.sendsafely.com/auth/':
-            print(f'\nhttps://www.sendsafely.com/auth/ is here')
-        else:
-            print(f'\nhttps://www.sendsafely.com/auth/ is not here')
-        self.driver.back()
+        try:
+            # Temporary sleep for debugging
+            sleep(5)
+            wait = WebDriverWait(self.driver, 20)
+            # Ensure the element is visible
+            visible_lgn_btn_clck = wait.until(EC.visibility_of_element_located(LGN_BTN))
+            # Then, ensure it's clickable
+            lgn_btn_clck_element = wait.until(EC.element_to_be_clickable(LGN_BTN))
+            lgn_btn_clck_element.click()
+            if self.driver.current_url == 'https://www.sendsafely.com/auth/':
+                print(f'\nhttps://www.sendsafely.com/auth/ is here')
+            else:
+                print(f'\nhttps://www.sendsafely.com/auth/ is not here')
+            self.driver.back()
+        except Exception as e:
+            screenshot_path = os.path.join(os.getcwd(), 'screenshots', 'login_button_failure_lgn_btn_clck.png')
+            os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
+            self.driver.save_screenshot(screenshot_path)
+            print(f"Screenshot saved to: {screenshot_path}")
+            raise e # Re-raise the exception after screenshot
     # End of the above code
 
     # 7 Click "Request Demo" button. Verify "https://www.sendsafely.com/" is open
