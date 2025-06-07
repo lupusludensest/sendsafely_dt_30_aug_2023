@@ -32,8 +32,11 @@ jobs:
     - name: Install Chrome
       uses: browser-actions/setup-chrome@latest
 
+    - name: Create Allure Reports Directory
+      run: mkdir allure_bdd_reports
+
     - name: Run BDD Tests
-      run: .\allure_bdd_run.bat
+      run: python -m behave -f allure_behave.formatter:AllureFormatter -o allure_bdd_reports/ features/
 
     - name: Generate Allure Report
       run: allure generate allure_bdd_reports --clean -o allure-report
