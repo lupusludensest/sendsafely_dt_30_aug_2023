@@ -13,9 +13,14 @@ def browser_init(context):
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    context.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
-    context.driver.maximize_window()
+    # Debugging: Print the ChromeDriver path
+    driver_path = ChromeDriverManager().install()
+    print(f"[DEBUG] ChromeDriver path: {driver_path}")
+
+    context.driver = webdriver.Chrome(driver_path, options=chrome_options)
+
+    # Removed context.driver.maximize_window() as it's not applicable in headless mode
     context.driver.implicitly_wait(4)
     context.app = Application(context.driver)
 
