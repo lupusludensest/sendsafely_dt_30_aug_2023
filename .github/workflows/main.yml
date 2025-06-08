@@ -33,7 +33,7 @@ jobs:
       uses: browser-actions/setup-chrome@latest
 
     - name: Install Allure CLI
-      run: choco install allurecommandline --version=2.27.0 -y
+      run: choco install allurecommandline -y
 
     - name: Create Allure Reports Directory
       run: mkdir allure_bdd_reports
