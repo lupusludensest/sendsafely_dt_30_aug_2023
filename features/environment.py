@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
 from app.application import Application
@@ -18,7 +19,9 @@ def browser_init(context):
     driver_path = ChromeDriverManager().install()
     print(f"[DEBUG] ChromeDriver path: {driver_path}")
 
-    context.driver = webdriver.Chrome(driver_path, options=chrome_options)
+    # Correct way to initialize Chrome with Service and Options in Selenium 4+
+    service = ChromeService(executable_path=driver_path)
+    context.driver = webdriver.Chrome(service=service, options=chrome_options)
 
     # Removed context.driver.maximize_window() as it's not applicable in headless mode
     context.driver.implicitly_wait(4)
