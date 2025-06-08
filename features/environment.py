@@ -42,6 +42,9 @@ def after_step(context, step):
         print('\nStep failed: ', step)
 
 
-def after_scenario(context, feature):
-    context.driver.delete_all_cookies()
-    context.driver.quit()
+def after_scenario(context, scenario):  # <--- Fixed parameter name
+    # Defensive: Only try to clean up if driver exists
+    driver = getattr(context, "driver", None)
+    if driver is not None:
+        driver.delete_all_cookies()
+        driver.quit()

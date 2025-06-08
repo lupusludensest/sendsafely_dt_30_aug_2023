@@ -27,11 +27,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install webdriver-manager
+        pip install -r requirements.txt webdriver-manager
 
     - name: Install Chrome
       uses: browser-actions/setup-chrome@latest
+
+    - name: Install Allure CLI
+      run: choco install allurecommandline --version=2.27.0 -y
 
     - name: Create Allure Reports Directory
       run: mkdir allure_bdd_reports
@@ -46,4 +48,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: allure-report-bdd
-        path: allure-report 
+        path: allure-report
