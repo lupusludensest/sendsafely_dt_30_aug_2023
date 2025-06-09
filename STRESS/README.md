@@ -5,20 +5,21 @@ This directory contains basic load testing scripts using the Locust framework.
 ## Setup and Running Instructions
 
 ### 0. Prerequisites
+- Python 3.11
+- Virtual Environment: venv_3.11 (shared with main project)
 Navigate to the working directory:
 ```powershell
 cd E:\Gurov_SSD_256\IT\Testing\Automation_08_09_2019\sendsafely_dt_30_aug_2023\STRESS
 ```
 
 ### 1. Environment Setup
-Create and activate virtual environment:
+Use the project's main virtual environment:
 ```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+..\..\venv_3.11\Scripts\Activate.ps1
 ```
 
 ### 2. Install Dependencies
-Install Locust in the virtual environment:
+Install Locust in the virtual environment if not already installed:
 ```powershell
 pip install locust
 ```
@@ -81,3 +82,8 @@ Deactivate virtual environment when done:
 ```powershell
 deactivate
 ```
+
+## Notes (Updated June 8, 2025)
+- Using shared venv_3.11 environment with main project
+- Make sure Chrome and ChromeDriver are properly configured if UI elements are included in load tests
+- Recommended to run load tests in headless mode for better performance

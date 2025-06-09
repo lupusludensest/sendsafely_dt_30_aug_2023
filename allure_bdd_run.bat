@@ -8,4 +8,4 @@ if not exist "allure_bdd_reports" (
 )
 
 REM Run behave with Allure formatter
-"%~dp0.venv\Scripts\python.exe" -m behave -f allure_behave.formatter:AllureFormatter -o allure_bdd_reports features/
+"%~dp0venv_3.11\Scripts\python.exe" -m behave -f allure_behave.formatter:AllureFormatter -o allure_bdd_reports features/
