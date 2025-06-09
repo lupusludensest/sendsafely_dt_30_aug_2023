@@ -2,6 +2,13 @@
 
 This project contains a comprehensive testing suite for SendSafely, implementing multiple testing approaches including TDD, BDD, API Testing, and Load Testing.
 
+## Environment Setup (Updated June 8, 2025)
+- Python 3.11 (using venv_3.11)
+- Chrome Browser: Version 137.0.7151.69
+- ChromeDriver: Version 137.0.7151.68 (local installation at C:\Webdrivers\chromedriver.exe)
+- Tests configured for visible (non-headless) mode
+- Standard resolution window size
+
 ## Project Structure
 
 ```
@@ -24,13 +31,14 @@ Located in `features/` directory.
 #### Setup
 1. Create and activate virtual environment:
 ```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+python -m venv venv_3.11
+.\venv_3.11\Scripts\Activate.ps1
 ```
 
 2. Install dependencies:
 ```powershell
 pip install -r requirements.txt
+pip install pynput pyautogui  # Additional dependencies for UI automation
 ```
 
 #### Running BDD Tests
@@ -110,8 +118,19 @@ pip install -r requirements.txt
 ## Requirements
 See `requirements.txt` for all Python dependencies.
 
+## Recent Updates (June 8, 2025)
+- Fixed ChromeDriver configuration and path settings
+- Updated browser window size for better test stability
+- Corrected virtual environment paths in batch files
+- Fixed TDD test runner configuration
+- Added proper error handling for test assets
+- Updated dependencies to include UI automation tools
+
 ## Notes
 - Make sure to activate the virtual environment before running any tests
 - Allure framework is required for viewing test reports
 - Each testing approach has its own set of locators and configurations
 - Load testing requires separate setup as described in STRESS/README.md
+- ChromeDriver is now configured locally instead of using WebDriver Manager
+- Tests run in visible mode for better debugging
+- Window size standardized for consistent UI testing

@@ -1,10 +1,17 @@
 @echo off
-call "%~dp0..\venv\Scripts\activate.bat"
 
-REM Run all tests in the TDD directory and generate Allure reports
-pytest --alluredir="%~dp0allure_tdd_reports" "%~dp0."
+set PROJECT_DIR=E:\Gurov_SSD_256\IT\Testing\Automation_08_09_2019\sendsafely_dt_30_aug_2023
+set VENV_PYTHON=%PROJECT_DIR%\venv_3.11\Scripts\python.exe
 
-REM Pause to keep the window open after execution (optional)
+REM Check if the directory exists; if not, create it
+if not exist "%PROJECT_DIR%\TDD\allure_tdd_reports" (
+    mkdir "%PROJECT_DIR%\TDD\allure_tdd_reports"
+) else (
+    echo "Directory allure_tdd_reports already exists."
+)
+
+REM Run pytest with Allure reporting
+"%VENV_PYTHON%" -m pytest "%PROJECT_DIR%\TDD" --alluredir="%PROJECT_DIR%\TDD\allure_tdd_reports"
+
+REM Pause to keep the window open
 pause
-
-
