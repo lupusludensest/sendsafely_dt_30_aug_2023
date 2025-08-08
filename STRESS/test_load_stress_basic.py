@@ -9,15 +9,40 @@ class MyUser(HttpUser):
 
     @task
     def my_task(self):
-        # Define the HTTP GET request you want to simulate
-        # The base URL will be taken from the --host parameter
-        response = self.client.get("/")
+        try:
+            # Check if the 'request_failure' attribute exists
+            if hasattr(self.environment.events, "request_failure"):
+                print("request_failure attribute exists in events.")
+            else:
+                print("request_failure attribute does NOT exist in events.")
 
-        # You can check the response status code or content if needed
-        if response.status_code == 200:
-            self.locust.log_success("GET request succeeded", response.elapsed.total_seconds())
-        else:
-            self.locust.log_failure("GET request failed", response.status_code)
+            # Define the HTTP GET request you want to simulate
+            response = self.client.get("/")
+
+            # Log success or failure using Locust's built-in methods
+            if response.status_code == 200:
+                self.environment.events.request_success.fire(
+                    request_type="GET",
+                    name="/",
+                    response_time=response.elapsed.total_seconds(),
+                    response_length=len(response.content),
+                )
+            else:
+                self.environment.events.request_failure.fire(
+                    request_type="GET",
+                    name="/",
+                    response_time=response.elapsed.total_seconds(),
+                    response_length=len(response.content),
+                    exception=Exception(f"GET request failed with status code {response.status_code}"),
+                )
+        except Exception as e:
+            self.environment.events.request_failure.fire(
+                request_type="GET",
+                name="/",
+                response_time=0,
+                response_length=0,
+                exception=e,
+            )
 
 
 
