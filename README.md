@@ -43,21 +43,21 @@ pip install pynput pyautogui  # Additional dependencies for UI automation
 
 #### Running BDD Tests
 Use the batch files in the root directory:
-- `allure_bdd_run.bat` - Executes BDD tests
-- `allure_bdd_report.bat` - Generates Allure report for BDD tests
+- .\allure_bdd_run.bat - Executes BDD tests
+- .\allure_bdd_report.bat - Generates Allure report for BDD tests
 
 Tests are organized in feature files:
-- `sendsafely_pytested_blue_top_1.feature`
-- `sendsafely_pytested_bttns_clckd_2.feature`
-- `sendsafely_pytested_sign_up_right_3.feature`
+- .\sendsafely_pytested_blue_top_1.feature
+- .\sendsafely_pytested_bttns_clckd_2.feature
+- .\sendsafely_pytested_sign_up_right_3.feature
 
 ### 2. TDD (Test-Driven Development)
 Located in `TDD/` directory.
 
 #### Running TDD Tests
 Use the batch files in the TDD directory:
-- `allure_tdd_run.bat` - Executes TDD tests
-- `allure_tdd_report.bat` - Generates Allure report for TDD tests
+- .\allure_tdd_run.bat - Executes TDD tests
+- .\allure_tdd_report.bat - Generates Allure report for TDD tests
 
 Available tests:
 - Blue top navigation tests
@@ -70,8 +70,8 @@ Located in `API/` directory.
 
 #### Running API Tests
 Use the batch files in the API directory:
-- `allure_api_run.bat` - Executes API tests
-- `allure_api_report.bat` - Generates Allure report for API tests
+- .\allure_api_run.bat - Executes API tests
+- .\allure_api_report.bat - Generates Allure report for API tests
 
 Available tests:
 - GET security text tests
@@ -84,10 +84,10 @@ See [STRESS/README.md](STRESS/README.md) for detailed instructions on running lo
 
 ## Page Objects
 Located in `pages/` directory:
-- `base_page.py` - Base class with common functionality
-- `main_page.py` - Main page specific elements and actions
-- `all_locators_bdd.py` - Locators for BDD tests
-- `all_locators_tdd.py` - Locators for TDD tests
+- .\base_page.py - Base class with common functionality
+- .\main_page.py - Main page specific elements and actions
+- .\all_locators_bdd.py - Locators for BDD tests
+- .\all_locators_tdd.py - Locators for TDD tests
 
 ## Getting Started
 
@@ -104,15 +104,15 @@ pip install -r requirements.txt
 ```
 
 4. Choose your testing approach:
-   - For BDD: Run `allure_bdd_run.bat`
-   - For TDD: Run `allure_tdd_run.bat`
-   - For API: Run `allure_api_run.bat`
+   - For BDD: Run .\allure_bdd_run.bat
+   - For TDD: Run .\allure_tdd_run.bat
+   - For API: Run .\allure_api_run.batC:\Users\rapid\test_send_bug_report.jpg
    - For Load Testing: Follow instructions in STRESS/README.md
 
 5. View test results:
-   - For BDD: Run `allure_bdd_report.bat`
-   - For TDD: Run `allure_tdd_report.bat`
-   - For API: Run `allure_api_report.bat`
+   - For BDD: Run .\allure_bdd_report.bat
+   - For TDD: Run .\allure_tdd_report.bat
+   - For API: Run .\allure_api_report.bat
    - For Load Testing: Check generated HTML/CSV reports
 
 ## Requirements
